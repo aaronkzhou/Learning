@@ -1,0 +1,24 @@
+
+    While Cells(j, 4) <> ""
+        
+        arrSrName = Split(Cells(j, 4), "|")
+        
+        arrLong = UBound(arrSrName)
+        
+        If arrLong > 1 Then
+        
+        For k = 0 To 2
+        
+            If arrSrName(k) = Cells(j, 5) Then
+            
+            Cells(j, 4) = Cells(j, 5)
+            
+            End If
+        
+        Next k
+        
+        End If
+        
+        j = j + 1
+    
+    Wend

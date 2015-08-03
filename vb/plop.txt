@@ -1,0 +1,92 @@
+Sub plopdata()
+
+Dim total_rows1%, total_rows2%
+Dim loop_value%, d%, a%, b%, selected_value%
+Dim x%, y%, z%
+Dim selected_row1%, selected_row2%, selected_row3%
+t = 1
+
+    total_rows1 = Sheets(4).UsedRange.Rows.Count
+    total_rows2 = Sheets(3).UsedRange.Rows.Count
+    Sheets(2).Select
+    Range("A2:B2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Sheets("delete 3").Select
+    Range("A1").Select
+    ActiveSheet.Paste
+
+    For a = 1 To total_rows1
+
+    Sheets(4).Cells(a, 2) = "=VLOOKUP(RC[-1],'delete 3'!C[-1]:C,2,)"
+
+    Next
+
+    For b = 1 To total_rows1
+
+    Sheets(3).Select
+    Columns("A:A").Select
+    Selection.Find Sheets(4).Cells(b, 1)
+
+    Next
+
+    For d = 1 To total_rows2
+    Sheets(3).Select
+    Cells(d, 3) = "=VLOOKUP('delete 3'!RC[-2],'delete 4'!C[-2],1,)"
+    Next
+
+    Sheets(3).Select
+    Columns("C:C").Select
+    Columns("C:C").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("C1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Selection.Replace What:="#N/A", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+
+For x = 1 To total_rows2
+    If Cells(x, 3).Value <> 0 Then
+
+    selected_row1 = Cells(x, 3).Row
+    selected_value = Sheets(3).Cells(selected_row1, 2)
+ 
+End If
+    If Cells(x, 3).Value <> 0 Then
+
+
+     For y = selected_row1 + 1 To total_rows2
+        loop_value = Sheets(3).Cells(y, 2).Value
+        If selected_value = loop_value Then Exit For
+        If selected_value + 11 = loop_value Then
+
+          Sheets(3).Cells(t, 4) = Sheets(3).Cells(y, 1)
+          Sheets(3).Cells(t, 6) = Sheets(3).Cells(t, 4)
+          Sheets(3).Cells(t, 5) = Sheets(3).Cells(selected_row1, 3)
+	  Sheets(3).Cells(t, 7) = "=VLOOKUP(RC[-1],'delete 2'!C[-6]:C[-4],3,)"
+          Sheets(3).Cells(t, 8) = "=VLOOKUP(RC[-3],'delete 2'!C[-7]:C[-4],4,)"
+            t = t + 1
+        End If
+
+
+    Next
+    End If
+    
+    Next
+
+
+End Sub
+
+
+
+
+
+
+
+
+
+
+
+

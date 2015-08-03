@@ -1,0 +1,10 @@
+[ INFO] 2014-10-14 10:37:53,796 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@8ca8ac: display name [org.springframework.context.support.FileSystemXmlApplicationContext@8ca8ac]; startup date [Tue Oct 14 10:37:53 CST 2014]; root of context hierarchy
+[ INFO] 2014-10-14 10:37:53,890 [] [] Loading XML bean definitions from file [C:\wamp\www\apache-ftpserver-1.0.5\res\conf\ftpd-typical.xml]
+[ INFO] 2014-10-14 10:37:54,171 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@8ca8ac]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ae8935
+[ INFO] 2014-10-14 10:37:54,202 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ae8935: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2014-10-14 10:37:54,608 [] [] FTP server started
+[ INFO] 2014-10-14 10:47:52,194 [] [] Refreshing org.springframework.context.support.FileSystemXmlApplicationContext@8ca8ac: display name [org.springframework.context.support.FileSystemXmlApplicationContext@8ca8ac]; startup date [Tue Oct 14 10:47:52 CST 2014]; root of context hierarchy
+[ INFO] 2014-10-14 10:47:52,241 [] [] Loading XML bean definitions from file [C:\wamp\www\apache-ftpserver-1.0.5\res\conf\ftpd-typical.xml]
+[ INFO] 2014-10-14 10:47:52,382 [] [] Bean factory for application context [org.springframework.context.support.FileSystemXmlApplicationContext@8ca8ac]: org.springframework.beans.factory.support.DefaultListableBeanFactory@1ae8935
+[ INFO] 2014-10-14 10:47:52,398 [] [] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1ae8935: defining beans [org.apache.ftpserver.listener.ListenerFactory#0,org.apache.ftpserver.usermanager.PropertiesUserManagerFactory#0,org.apache.ftpserver.FtpServerFactory#0,myServer]; root of factory hierarchy
+[ INFO] 2014-10-14 10:47:52,601 [] [] FTP server started

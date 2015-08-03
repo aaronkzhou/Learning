@@ -1,0 +1,69 @@
+public boolean Report_Open() 
+
+{
+	// Added to print SCHD order information from QRTS
+	String strResponse = "";
+	Component comSchd = getComponent( "PREKIT" );
+	java.io.OutputStreamWriter out = null;
+	java.io.InputStream in = null;
+	String urlStr = "http://16.187.224.112:8080/thinkaaron/indexbuyer.php/home/prekit/query";
+	try 
+	{
+		Vector woVect = getParameter("Work Objects Table").getValue();
+		Vector orderVect = woVect.get(0);
+		String plo = orderVect.get(25).trim();
+		String sendMsg = plo;
+		java.net.URL url = new java.net.URL(urlStr);
+		java.net.HttpURLConnection connection = (java.net.HttpURLConnection) url.openConnection();  
+		connection.setDoOutput(true);
+		connection.setDoInput(true);
+		connection.setRequestMethod("POST");
+		out = new java.io.OutputStreamWriter(connection.getOutputStream(),"UTF-8");
+		out.write(sendMsg);
+		out.flush();
+		out.close();
+  
+		String strLine = "";
+		strResponse = "";  
+		in = connection.getInputStream();  
+		java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(in,"UTF-8"));  
+		while ((strLine = reader.readLine()) != null) 
+		{  
+			strResponse += strLine + "\n";  
+		}
+		comSchd.setValue(strResponse);
+	}
+	catch (Exception e) 
+	{
+				try 
+				{
+							strResponse = "";
+							comSchd.setValue(strResponse);
+				} 
+				catch (Exception ex)
+				{
+							
+				}
+	}
+	finally 
+	{
+		try 
+		{
+			if (out != null) 
+			{
+				out.close();
+			}
+			if (in != null) 
+			{
+				in.close();
+			}
+		} 
+		catch (Exception ex) 
+		{
+			
+		}
+	}
+
+
+	return true;
+}

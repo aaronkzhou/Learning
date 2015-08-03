@@ -1,0 +1,201 @@
+body {
+	font-family:Arial; 
+	font-size:14px; 
+	margin:0; 
+	width: auto;
+}
+
+#container {
+	margin:0 auto;
+	width:1200px;
+	background: #FFFFFF;
+}
+
+#header {
+	margin: 0 auto; 
+	margin-bottom:2px; 
+	background: #FFFFFF;
+	width:1200px;
+}
+.headerclearfix:after {
+	content: "."; 
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.headerleft{
+	float: left;
+}
+.hplogo{
+	margin-left: 20px;
+	margin-bottom: 8px;
+}
+.webtitle{
+	margin-left:65px;
+}
+
+.headerright{
+	font-family: HPFutura Book; 
+	font-size: 15px; 
+	color: blue; 
+	text-align: right;  
+	float:right;	
+	margin-right: 4px;
+	margin-top: 20px;
+}
+.loginlogo{
+	width: 50px;
+}
+
+.headermiddle{
+	font-family: HPFutura Book; 
+	font-size: 15px; 
+	color: blue; 
+	text-align: right;  
+	float:right;	
+	margin-right: 4px;
+	margin-top: 24px;
+}
+
+#mainContent { 
+	margin-bottom:2px; 
+	margin-top:0px;
+	width:1200px;
+	background: #FFFFFF;
+}
+.clearfix:after {
+	content: "."; 
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	text-align: center; 
+	margin-top: 4px;
+	margin-bottom: 16px;
+
+}
+.mainContentLeft { 
+	margin-left: 24px; 
+	margin-bottom:2px; 
+	margin-top:8px;
+	width:480px;
+	float: left;
+	border: 1px solid #FFFFFF;
+}
+.mainContentRight { 
+	margin-bottom:2px; 
+	margin-top:0px;
+	width:660px;
+	float: right;
+	margin-right: 20px;	
+}
+
+.tableformat1{
+	text-align:center;
+	border: 1px solid #A9F5A9;
+}
+
+.mainContenttoLeft{
+	margin-left: 18px; 
+	margin-bottom:2px; 
+	margin-top:8px;
+	width:210px;
+	float: left;
+}
+
+.mainContentLeft3 { 
+	margin-left: 18px; 
+	margin-bottom:2px; 
+	margin-top:24px;
+	width:270px;
+	float: left;
+}
+.mainContentMiddle3 { 
+	margin-left: 24px; 
+	margin-bottom:2px; 
+	margin-top:24px;
+	width:270px;
+	float: left;
+}
+.mainContentRight3 { 
+	margin-bottom:2px; 
+	margin-top:24px;
+	width:270px;
+	float: right;
+	margin-right: 18px;
+}
+
+.mainContentTitle {
+	text-align:center; 
+	margin-top:16px; 
+	font-family: HPFutura Book; 
+	font-size: 22pt; 
+	color: teal;
+}
+.mainContentTitleappend{
+	text-align: center; 
+	margin-top:16px; 
+	font-family: HPFutura Book; 
+	font-size: 18; 
+	color: gray; 
+	margin-bottom: 10px;
+}
+
+.mainContentSubTitle {
+	text-align:center; 
+	margin-top:24px; 
+	font-family: HPFutura Book; 
+	font-size: 20pt; 
+	color: black
+}
+.mainContentText1 {
+	font-family: HPFutura Book; 
+	font-size: 12pt; 
+	color: black; 
+	text-align: left;
+	margin-top:16px; 
+	margin-bottom: 16px; 
+	margin-left: 15px; 
+	line-height:150%
+}
+
+.mainContentText2 {
+	font-family: HPFutura Book; 
+	font-size: 12pt; 
+	color: teal; 
+	text-align: left;
+	margin-top:16px; 
+	margin-bottom: 16px; 
+	margin-left: 15px; 
+	line-height:100%
+}
+
+.mainContentText3 {
+	font-family: HPFutura Book; 
+	font-size: 12pt; 
+	color: black; 
+	text-align: left;
+	margin-top:8px; 
+	margin-bottom: 8px; 
+	margin-left: 15px; 
+	line-height:100%
+}
+
+.mainContentText2Center {
+	font-family: HPFutura Book; 
+	font-size: 12pt; 
+	color: black; 
+	text-align: center;
+	margin-top:16px; 
+	margin-bottom: 16px; 
+	margin-left: 15px; 
+	line-height:100%
+}
+#footer {
+	height:0px; 
+	background-repeat: repeat-x;
+	width:1200px;
+	background: #FFFFFF;
+}

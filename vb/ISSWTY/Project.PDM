@@ -1,0 +1,380 @@
+[Root]
+Most Recent Package=ISSWTY.100
+
+
+[Package|标准安装软件包 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\7F_PROGRAMs\fangxm\Ver2.06\install
+
+[Package|标准安装软件包 1|Configure DAO ISAMs]
+Applicable=Yes
+Xbase=No
+Excel=No
+Text=No
+Jet 2.x=Yes
+Lotus=No
+Paradox=No
+Exchange=No
+
+[Package|标准安装软件包 1|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=No
+
+[Package|标准安装软件包 1|Files Found]
+cnlist2.mdb=E:\7F_PROGRAMs\fangxm\Ver2.06\cnlist2.mdb
+Form1.frm=E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frm
+Form1.frx=E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frx
+
+[Package|标准安装软件包 1|Files Released]
+
+[Package|标准安装软件包 1|Missing Dependency Information]
+
+[Package|标准安装软件包 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSDATLST.OCX=
+C:\WINNT\system32\MSSTDFMT.DLL=
+C:\WINNT\system32\MSDATGRD.OCX=
+
+[Package|标准安装软件包 1|Files Added]
+productlist.mdb=
+cnlist2.mdb=
+warrenty.ini=
+form1.frm=
+form2.frm=
+form3.frm=
+module1.bas=
+form1.frx=
+form1.log=
+form2.frx=
+project.pdm=
+project.vbp=
+project.vbw=
+
+[Package|标准安装软件包 1|Files Removed]
+e:\7f_programs\fangxm\ver2.06\cnlist2.mdb=
+e:\7f_programs\fangxm\ver2.06\form1.log=
+e:\7f_programs\fangxm\ver2.06\productlist.mdb=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\mdac_typ.exe=
+
+[Package|标准安装软件包 1|Files In Project]
+C:\WINNT\SYSTEM32\msvbvm60.dll=Yes
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=Yes
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=Yes
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=Yes
+C:\WINNT\SYSTEM32\STDOLE2.TLB=Yes
+C:\WINNT\SYSTEM32\VB6CHS.DLL=Yes
+C:\WINNT\SYSTEM32\DBLIST32.OCX=Yes
+C:\WINNT\SYSTEM32\DBLSTCHS.DLL=Yes
+C:\WINNT\SYSTEM32\MSDATGRD.OCX=Yes
+C:\WINNT\SYSTEM32\MSSTDFMT.DLL=Yes
+C:\WINNT\SYSTEM32\STDFTCHS.DLL=Yes
+C:\WINNT\SYSTEM32\DATGDCHS.DLL=Yes
+C:\WINNT\SYSTEM32\MSDATLST.OCX=Yes
+C:\WINNT\SYSTEM32\DATLSCHS.DLL=Yes
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=Yes
+C:\WINNT\SYSTEM32\MSJet35.dll=Yes
+C:\WINNT\SYSTEM32\msjter35.dll=Yes
+C:\WINNT\SYSTEM32\msjint35.dll=Yes
+C:\WINNT\SYSTEM32\VBAJET32.DLL=Yes
+C:\WINNT\SYSTEM32\EXPSRV.DLL=Yes
+C:\WINNT\SYSTEM32\msrd2x35.dll=Yes
+C:\WINNT\SYSTEM32\MsRepl35.dll=Yes
+C:\WINNT\SYSTEM32\VB5DB.DLL=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\accessorywtycard.exe=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\productlist.mdb=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\cnlist2.mdb=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\warrenty.ini=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frm=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form2.frm=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form3.frm=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Module1.bas=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frx=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.log=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form2.frx=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.PDM=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.vbp=Yes
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.vbw=Yes
+C:\HP\i\ms\msapps\32.0\DAO\DAO350.DLL=Yes
+
+[Package|标准安装软件包 1|Configure Registry Files]
+Applicable=No
+
+[Package|标准安装软件包 1|Configure Remote Servers]
+Applicable=No
+
+[Package|标准安装软件包 1|Install Locations]
+D:\Microsoft Visual Studio\VB98\Project.exe=$(AppPath)
+C:\WINNT\SYSTEM32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\VB6CHS.DLL=$(WinSysPath)
+C:\HP\i\ms\MSAPPS\32.0\DAO\DAO350.DLL=$(MSDAOPath)
+D:\Microsoft Visual Studio\VB98\MSJet35.dll=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\msjter35.dll=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\msjint35.dll=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\VBAJET32.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\EXPSRV.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\msrd2x35.dll=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\MsRepl35.dll=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\VB5DB.DLL=$(WinSysPath)
+C:\WINNT\SYSTEM32\DBLIST32.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\DBLSTCHS.DLL=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\SYSTEM32\STDFTCHS.DLL=$(WinSysPath)
+C:\WINNT\SYSTEM32\DATGDCHS.DLL=$(WinSysPath)
+C:\WINNT\SYSTEM32\MSDATLST.OCX=$(WinSysPath)
+C:\WINNT\SYSTEM32\DATLSCHS.DLL=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Microsoft Visual Studio\VB98\productlist.mdb=$(AppPath)
+D:\Microsoft Visual Studio\VB98\cnlist2.mdb=$(AppPath)
+D:\Microsoft Visual Studio\VB98\warrenty.ini=$(AppPath)
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Project.exe=$(AppPath)
+C:\WINNT\SYSTEM32\MSJet35.dll=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\msjter35.dll=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\msjint35.dll=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\msrd2x35.dll=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\MsRepl35.dll=$(WinSysPathSysFile)
+C:\WINNT\SYSTEM32\VB5DB.DLL=$(WinSysPath)
+D:\Microsoft Visual Studio\VB98\project\productlist.mdb=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\cnlist2.mdb=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\warrenty.ini=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Form1.frm=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Form2.frm=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Form3.frm=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Module1.bas=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Form1.frx=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Form1.log=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Form2.frx=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Project.PDM=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Project.vbp=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\Project.vbw=$(AppPath)
+D:\Microsoft Visual Studio\VB98\project\accessorywtycard.exe=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\accessorywtycard.exe=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\warrenty.ini=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frm=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form2.frm=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form3.frm=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Module1.bas=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frx=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form2.frx=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.PDM=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.vbp=$(AppPath)
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.vbw=$(AppPath)
+
+[Package|标准安装软件包 1|Configure Shared Files]
+Applicable=Yes
+D:\Microsoft Visual Studio\VB98\Project.exe=Yes
+D:\Microsoft Visual Studio\VB98\productlist.mdb=Yes
+D:\Microsoft Visual Studio\VB98\cnlist2.mdb=Yes
+D:\Microsoft Visual Studio\VB98\warrenty.ini=Yes
+D:\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+D:\Microsoft Visual Studio\VB98\project\Project.exe=No
+D:\Microsoft Visual Studio\VB98\project\productlist.mdb=No
+D:\Microsoft Visual Studio\VB98\project\cnlist2.mdb=No
+D:\Microsoft Visual Studio\VB98\project\warrenty.ini=No
+D:\Microsoft Visual Studio\VB98\project\Form1.frm=No
+D:\Microsoft Visual Studio\VB98\project\Form2.frm=No
+D:\Microsoft Visual Studio\VB98\project\Form3.frm=No
+D:\Microsoft Visual Studio\VB98\project\Module1.bas=No
+D:\Microsoft Visual Studio\VB98\project\Form1.frx=No
+D:\Microsoft Visual Studio\VB98\project\Form1.log=No
+D:\Microsoft Visual Studio\VB98\project\Form2.frx=No
+D:\Microsoft Visual Studio\VB98\project\Project.PDM=No
+D:\Microsoft Visual Studio\VB98\project\Project.vbp=No
+D:\Microsoft Visual Studio\VB98\project\Project.vbw=No
+D:\Microsoft Visual Studio\VB98\project\accessorywtycard.exe=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\accessorywtycard.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\warrenty.ini=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frm=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form2.frm=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form3.frm=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Module1.bas=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form1.frx=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Form2.frx=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.PDM=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.vbp=No
+E:\7F_PROGRAMs\fangxm\Ver2.06\Project.vbw=No
+
+[Package|标准安装软件包 1|Distribution]
+Type=single
+Size=1.2 MB
+Title=产品保修卡打印程序
+
+[Package|标准安装软件包 1|Package]
+PackageFolder=e:\7F_PROGRAMs\fangxm\Ver2.06\install
+ProjectFolder=E:\7F_PROGRAMs\fangxm\Ver2.06
+ServerSideCab=
+File1=e:\7F_PROGRAMs\fangxm\Ver2.06\install\setup.exe
+File2=e:\7F_PROGRAMs\fangxm\Ver2.06\install\Setup.Lst
+File3=e:\7F_PROGRAMs\fangxm\Ver2.06\install\accessorywtycard.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|标准安装软件包 1|IconGroups]
+Group0=产品保修卡打印程序
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|标准安装软件包 1|产品保修卡打印程序]
+Icon1=accessorywtycard.exe
+Title1=产品保修卡打印程序
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|ISSWTY.100|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=E:\Devtest\ISSWTY\Package
+
+[Package|ISSWTY.100|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|ISSWTY.100|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|ISSWTY.100|Files Found]
+
+[Package|ISSWTY.100|Files Released]
+
+[Package|ISSWTY.100|Missing Dependency Information]
+
+[Package|ISSWTY.100|Out-of-Date Dependency Information]
+
+[Package|ISSWTY.100|Files Added]
+E:\Devtest\ISSWTY\warrenty.ini=
+E:\Devtest\ISSWTY\cnlist2.mdb=
+E:\Devtest\ISSWTY\productlist.mdb=
+
+[Package|ISSWTY.100|Files Removed]
+
+[Package|ISSWTY.100|Files In Project]
+E:\Devtest\ISSWTY\ISSWTY_v1.00.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+E:\Devtest\ISSWTY\msjet35.dll=Yes
+E:\Devtest\ISSWTY\msjter35.dll=Yes
+E:\Devtest\ISSWTY\msjint35.dll=Yes
+E:\Devtest\ISSWTY\VBAJET32.DLL=Yes
+E:\Devtest\ISSWTY\EXPSRV.DLL=Yes
+E:\Devtest\ISSWTY\msrd2x35.dll=Yes
+E:\Devtest\ISSWTY\msrepl35.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+E:\Devtest\ISSWTY\VB5DB.DLL=Yes
+C:\WINDOWS\system32\DBLIST32.OCX=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\MSSTDFMT.DLL=Yes
+C:\WINDOWS\system32\MSDATLST.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\WINDOWS\system32\MSRDO20.DLL=Yes
+C:\WINDOWS\system32\RDOCURS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Devtest\ISSWTY\warrenty.ini=Yes
+E:\Devtest\ISSWTY\cnlist2.mdb=Yes
+E:\Devtest\ISSWTY\productlist.mdb=Yes
+
+[Package|ISSWTY.100|Configure Registry Files]
+Applicable=No
+
+[Package|ISSWTY.100|Configure Remote Servers]
+Applicable=No
+
+[Package|ISSWTY.100|Install Locations]
+E:\Devtest\ISSWTY\ISSWTY_v1.00.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+E:\Devtest\ISSWTY\msjet35.dll=$(WinSysPathSysFile)
+E:\Devtest\ISSWTY\msjter35.dll=$(WinSysPathSysFile)
+E:\Devtest\ISSWTY\msjint35.dll=$(WinSysPathSysFile)
+E:\Devtest\ISSWTY\VBAJET32.DLL=$(WinSysPathSysFile)
+E:\Devtest\ISSWTY\EXPSRV.DLL=$(WinSysPathSysFile)
+E:\Devtest\ISSWTY\msrd2x35.dll=$(WinSysPathSysFile)
+E:\Devtest\ISSWTY\msrepl35.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+E:\Devtest\ISSWTY\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\DBLIST32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\system32\MSDATLST.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\WINDOWS\system32\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\system32\RDOCURS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Devtest\ISSWTY\warrenty.ini=$(AppPath)
+E:\Devtest\ISSWTY\cnlist2.mdb=$(AppPath)
+E:\Devtest\ISSWTY\productlist.mdb=$(AppPath)
+
+[Package|ISSWTY.100|Configure Shared Files]
+Applicable=Yes
+E:\Devtest\ISSWTY\ISSWTY_v1.00.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+E:\Devtest\ISSWTY\warrenty.ini=Yes
+E:\Devtest\ISSWTY\cnlist2.mdb=Yes
+E:\Devtest\ISSWTY\productlist.mdb=Yes
+
+[Package|ISSWTY.100|Distribution]
+Type=single
+Size=
+Title=ISSWTY1.00
+
+[Package|ISSWTY.100|IconGroups]
+Group0=ISSWTY1.00
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|ISSWTY.100|ISSWTY1.00]
+Icon1=ISSWTY_v1.00.exe
+Title1=ISSWTY1.00
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|ISSWTY.100|Package]
+PackageFolder=E:\Devtest\ISSWTY\Package
+ProjectFolder=E:\Devtest\ISSWTY
+ServerSideCab=
+File1=E:\Devtest\ISSWTY\Package\setup.exe
+File2=E:\Devtest\ISSWTY\Package\Setup.Lst
+File3=E:\Devtest\ISSWTY\Package\ISSWTY_v1.00.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

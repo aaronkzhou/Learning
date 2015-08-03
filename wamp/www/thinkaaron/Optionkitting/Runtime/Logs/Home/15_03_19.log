@@ -1,0 +1,61 @@
+[ 2015-03-19T08:53:54+08:00 ] 16.165.61.31 /thinkaaron/index.php/home/index/sqltool
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000744s ]
+
+[ 2015-03-19T08:54:21+08:00 ] 16.165.61.31 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000333s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '??'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+

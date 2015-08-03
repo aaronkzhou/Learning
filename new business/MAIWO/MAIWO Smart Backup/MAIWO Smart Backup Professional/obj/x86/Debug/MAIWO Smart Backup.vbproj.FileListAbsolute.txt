@@ -1,0 +1,37 @@
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\bin\Debug\MAIWO Smart Backup.exe
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\bin\Debug\MAIWO Smart Backup.pdb
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\bin\Debug\MAIWO Smart Backup.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\bin\Debug\en\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\bin\Debug\zh-Hans\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\bin\Debug\zh-Hant\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\bin\Debug\zh\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.AboutBox1.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmEditTask.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter_Edit.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetTime.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmMain.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.Resources.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.myCheckBox.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter.en.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter.zh-Hans.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter.zh-Hant.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter.zh.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter_Edit.en.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter_Edit.zh-Hant.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetFilter_Edit.zh.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetTime.en.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetTime.zh-Hans.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetTime.zh-Hant.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\SmartBackup.frmSetTime.zh.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\MAIWO Smart Backup.vbproj.GenerateResource.Cache
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\en\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\zh-Hans\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\zh-Hant\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\zh\MAIWO Smart Backup.resources.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\MAIWO Smart Backup.exe
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\MAIWO Smart Backup.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\MAIWO Smart Backup.pdb
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\MAIWO Smart Backup.exe
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\MAIWO Smart Backup.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional\obj\x86\Debug\MAIWO Smart Backup.pdb

@@ -1,0 +1,174 @@
+[ 2015-04-10T15:37:06+08:00 ] 16.165.0.126 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000447s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2015-04-10T15:37:31+08:00 ] 16.165.0.126 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000317s ]
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 3 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 3 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 3 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined offset: 2 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined offset: 3 C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 29 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001431s ]
+
+[ 2015-04-10T15:38:13+08:00 ] 16.165.0.126 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000338s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2015-04-10T15:38:47+08:00 ] 16.165.0.126 /thinkaaron/index.php/home/index/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001374s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__s_k_u' [ RunTime:0.000458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001159s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001361s ]
+
+[ 2015-04-10T15:38:53+08:00 ] 16.165.0.126 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2015-04-10T16:02:07+08:00 ] 16.165.0.126 /thinkaaron/index.php/home/index/delete
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__s_k_u' [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001468s ]
+
+[ 2015-04-10T16:02:15+08:00 ] 16.165.0.126 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001388s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000320s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001462s ]
+

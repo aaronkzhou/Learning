@@ -1,0 +1,778 @@
+[ 2015-04-17T13:45:17+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000336s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-04-17T13:45:40+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001363s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000340s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 32 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 34 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 42 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2015-04-17T13:47:01+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000310s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2015-04-17T13:49:24+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000251s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-04-17T13:49:29+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000272s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 33 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2015-04-17T13:49:41+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000838s ]
+
+[ 2015-04-17T13:50:05+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000816s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000285s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2015-04-17T13:51:06+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000339s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2015-04-17T13:52:30+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2015-04-17T13:52:33+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000311s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2015-04-17T13:52:53+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001590s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000384s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2015-04-17T13:56:06+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001425s ]
+
+[ 2015-04-17T14:20:05+08:00 ] 16.189.155.142 /thinkaaron/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2015-04-17T17:23:00+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001397s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000334s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 44 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001198s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2015-04-17T17:26:10+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001389s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000324s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2015-04-17T17:26:32+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001421s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000312s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001384s ]
+
+[ 2015-04-17T17:27:11+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000347s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001399s ]
+
+[ 2015-04-17T17:27:32+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000314s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2015-04-17T17:28:03+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001394s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000328s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an incomplete multibyte character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 31 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001370s ]
+
+[ 2015-04-17T17:30:12+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000311s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2015-04-17T17:31:05+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000325s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001122s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2015-04-17T17:31:08+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000309s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001309s ]
+
+[ 2015-04-17T17:32:22+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001516s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000331s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001195s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2015-04-17T17:32:36+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001331s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000312s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2015-04-17T17:32:44+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001327s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000338s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2015-04-17T18:45:36+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000323s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2015-04-17T18:52:48+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001381s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000332s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?????,NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?????,NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2015-04-17T18:56:24+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000324s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001371s ]
+
+[ 2015-04-17T19:01:28+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001384s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000346s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2015-04-17T19:05:45+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000333s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string ',NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2015-04-17T19:07:06+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001403s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000322s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?????,NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?????,NULL)'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001369s ]
+
+[ 2015-04-17T19:07:54+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001430s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000344s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near 'SG'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2015-04-17T19:16:37+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000315s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001189s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2015-04-17T19:17:10+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000321s ]
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] iconv() [<a href='function.iconv'>function.iconv</a>]: Detected an illegal character in input string C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 45 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Unclosed quotation mark after the character string '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Incorrect syntax near '?'. (severity 15) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001374s ]
+
+[ 2015-04-17T19:19:32+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000350s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001180s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001380s ]
+
+[ 2015-04-17T19:19:48+08:00 ] 16.165.62.184 /thinkaaron/index.php/home/index/insert
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.option__view' [ RunTime:0.000343s ]
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_View'. Cannot insert duplicate key in object 'dbo.Option_view'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 37 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: message: Violation of PRIMARY KEY constraint 'PK_Option_SKU'. Cannot insert duplicate key in object 'dbo.Option_SKU'. (severity 14) C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+NOTIC: [2] mssql_query() [<a href='function.mssql-query'>function.mssql-query</a>]: Query failed C:\wamp\www\thinkaaron\Optionkitting\Home\Controller\IndexController.class.php 第 46 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+

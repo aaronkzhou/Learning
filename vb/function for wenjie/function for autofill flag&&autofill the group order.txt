@@ -1,0 +1,199 @@
+Sub autofill()
+
+Dim i%, j%, z%, selected_row1%, selected_row%
+selected_row1 = ActiveCell.Row
+
+For j = selected_row1 To 10000
+If Cells(j, 3).Value = 0 Then Exit For
+Next
+total_rows = j
+For selected_row = selected_row1 To j
+
+Cells(selected_row, 1).Select
+selected_row = ActiveCell.Row
+Dim iffe2%
+If Cells(selected_row, 30).Text = "Y" Then
+iffe2 = 1
+Else
+iffe2 = 0
+End If
+'MsgBox (iffe2)
+
+If Cells(selected_row, 1).Text = "TSG_MLDL_PF" Then Cells(selected_row, 16) = "=IF(RC[-1]>(60+" & iffe2 & "*24),IF(RC[-2]>(42+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(42+" & iffe2 & "*24),""Ignore"",""P only""))"
+If Cells(selected_row, 1).Text = "TSG_BLD_PF" Then Cells(selected_row, 16) = "=IF(RC[-1]>(60+" & iffe2 & "*24),IF(RC[-2]>(42+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(42+" & iffe2 & "*24),""Ignore"",""P only""))"
+If Cells(selected_row, 1).Text = "TSG_ENCL_PF" Then Cells(selected_row, 16) = "=IF(RC[-1]>(48+" & iffe2 & "*24),IF(RC[-2]>(42+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(42+" & iffe2 & "*24),""Ignore"",""P only""))"
+If Cells(selected_row, 1).Text = "TSG_MLTPRT_PF" Then Cells(selected_row, 16) = "=IF(RC[-1]>(108+" & iffe2 & "*24),IF(RC[-2]>(90+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(90+" & iffe2 & "*24),""Ignore"",""P only""))"
+If Cells(selected_row, 1).Text = "TSG_OEM_BLD_PF" Then Cells(selected_row, 16) = "=IF(RC[-1]>(60+" & iffe2 & "*24),IF(RC[-2]>(42+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(42+" & iffe2 & "*24),""Ignore"",""P only""))"
+If Cells(selected_row, 1).Text = "TSG_OEM_ENCL_PF" Then Cells(selected_row, 16) = "=IF(RC[-1]>(48+" & iffe2 & "*24),IF(RC[-2]>(42+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(42+" & iffe2 & "*24),""Ignore"",""P only""))"
+If Cells(selected_row, 1).Text = "TSG_OEM_MLDL_PF" Then Cells(selected_row, 16) = "=IF(RC[-1]>(60+" & iffe2 & "*24),IF(RC[-2]>(42+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(42+" & iffe2 & "*24),""Ignore"",""P only""))"
+If Cells(selected_row, 1).Text = "TSG_OEM_PF_MLDL" Then Cells(selected_row, 16) = "=IF(RC[-1]>(60+" & iffe2 & "*24),IF(RC[-2]>(42+" & iffe2 & "*24),""F&P"",""F only""),IF(RC[-2]<(42+" & iffe2 & "*24),""Ignore"",""P only""))"
+
+For i = selected_row + 1 To j
+
+If Cells(selected_row, 7).Text = Cells(i, 7).Text Then
+Cells(selected_row, 19) = "Y"
+Cells(i, 19) = "Y"
+End If
+
+Next
+
+
+
+
+
+Dim x As Single, y As Single, materialarrive As Single, materialarriveday%, materialarrivehour, materialarrivemin%, handover As Single, handoverday%, handoverhour%, handovermin%, result As Single, result1 As Single
+
+selected_row = ActiveCell.Row
+materialarriveday = Weekday((Cells(selected_row, 11)), 2)
+materialarrivehour = Hour(Cells(selected_row, 11))
+materialarrivemin = Minute(Cells(selected_row, 11))
+handoverday = Weekday((Cells(selected_row, 13)), 2)
+handoverhour = Hour(Cells(selected_row, 13))
+handovermin = Minute(Cells(selected_row, 13))
+rtpdateday = Weekday((Cells(selected_row, 8)), 2)
+rtpdatehour = Hour(Cells(selected_row, 8))
+rtpdatemin = Minute(Cells(selected_row, 8))
+shipdateday = Weekday((Cells(selected_row, 10)), 2)
+shipdatehour = Hour(Cells(selected_row, 10))
+shipdatemin = Minute(Cells(selected_row, 10))
+
+x = (Cells(selected_row, 13).Value - Cells(selected_row, 11).Value) * 24
+y = (Cells(selected_row, 10).Value - Cells(selected_row, 8).Value) * 24
+x = Round(x, 2)
+y = Round(y, 2)
+n = x / 168
+m = y / 168
+m = Int(m)
+n = Int(n)
+Duration = x - 168 * n
+Duration1 = y - 168 * m
+'MsgBox (Duration)
+'MsgBox (y)
+'MsgBox (Duration1)
+materialarrive = (materialarriveday - 1) * 24 + materialarrivehour + materialarrivemin / 60
+rtpdate = (rtpdateday - 1) * 24 + rtpdatehour + rtpdatemin / 60
+'MsgBox (materialarrive)
+handover = (handoverday - 1) * 24 + handoverhour + handovermin / 60
+shipdate = (shipdateday - 1) * 24 + shipdatehour + shipdatemin / 60
+If Cells(selected_row, 1).Value = 0 Then
+Exit Sub
+Else
+    If Duration <= 48 Then
+    
+        If materialarrive > 152.5 Or materialarrive < 32.5 Then
+            'MsgBox ("mark")
+      
+            If handover > 152.5 Or handover < 32.5 Then
+            result = 0 + 120 * n
+            Else
+            result = handover - 32.5 + 120 * n
+            End If
+            
+        Else
+            
+            If handover > 152.5 Or handover < 32.5 Then
+            result = 152.5 - materialarrive + 120 * n
+            'MsgBox ("mark")
+            Else
+            result = Duration + 120 * n
+            'MsgBox ("mark")
+            End If
+        End If
+    Else
+        If Duration > 48 Or Duration <= 120 Then
+            If materialarrive > 152.5 Or materialarrive < 32.5 Then
+            result = handover - 32.5 + 120 * n
+            Else
+                If handover > 152.5 Or handover < 32.5 Then
+                result = 152.5 - materialarrive + 120 * n
+                Else
+                    If handoverday > materialarriveday Then
+                    result = Duration + 120 * n
+                    Else
+                    result = Duration - 48
+                    End If
+                End If
+            End If
+        Else
+            If materialarrive > 152.5 Or materialarrive < 32.5 Then
+                If handover > 152.5 Or handover < 32.5 Then
+                result = 120 + 120 * n
+                Else
+                result = handover - 32.5 + 120 * n
+                End If
+            Else
+                If handover > 152.5 Or handover < 32.5 Then
+                result = 152.5 - materialarrive + 120 * n
+                Else
+                result = Duration - 48 + 120 * n
+                End If
+            End If
+        End If
+    End If
+    result = Round(result, 1)
+    'MsgBox (result)
+    Cells(selected_row, 14) = result
+End If
+If Cells(selected_row, 1).Value = 0 Then
+Exit Sub
+Else
+    If Duration1 <= 48 Then
+    
+        If rtpdate > 152.5 Or rtpdate < 32.5 Then
+            'MsgBox ("mark")
+      
+            If shipdate > 152.5 Or shipdate < 32.5 Then
+            result1 = 0 + 120 * m
+            Else
+            result1 = shipdate - 32.5 + 120 * m
+            End If
+            
+        Else
+            
+            If shipdate > 152.5 Or shipdate < 32.5 Then
+            result1 = 152.5 - rtpdate + 120 * m
+            'MsgBox ("mark")
+            Else
+            result1 = Duration1 + 120 * m
+            'MsgBox ("mark")
+            End If
+        End If
+    Else
+        If Duration1 > 48 Or Duration1 <= 120 Then
+            If rtpdate > 152.5 Or rtpdate < 32.5 Then
+            result1 = shipdate - 32.5 + 120 * m
+            Else
+                If shipdate > 152.5 Or shipdate < 32.5 Then
+                result1 = 152.5 - rtpdate + 120 * m
+                Else
+                    If shipdateday > rtpdateday Then
+                    result1 = Duration1 + 120 * m
+                    Else
+                    result1 = Duration1 - 48
+                    End If
+                End If
+            End If
+        Else
+            If rtpdate > 152.5 Or rtpdate < 32.5 Then
+                If shipdate > 152.5 Or shipdate < 32.5 Then
+                result1 = 120 + 120 * m
+                Else
+                result1 = shipdate - 32.5 + 120 * m
+                End If
+            Else
+                If shipdate > 152.5 Or shipdate < 32.5 Then
+                result1 = 152.5 - rtpdate + 120 * m
+                Else
+                result1 = Duration1 - 48 + 120 * m
+                End If
+            End If
+        End If
+    End If
+    result1 = Round(result1, 1)
+    'MsgBox (result)
+    Cells(selected_row, 15) = result1
+End If
+Next
+End Sub
+
+

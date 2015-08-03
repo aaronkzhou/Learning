@@ -1,0 +1,92 @@
+/*Bodies*/
+body.no_frame
+{
+font-family:Arial, Helvetica, sans-serif;
+color: #0066CC;
+text-align: left;
+background-color: #DDE1FF;
+padding: 4px;
+border-width: 1px;
+border-style: solid;
+border-color: #0066FF;
+}
+
+body.frame
+{
+font-family:Arial, Helvetica, sans-serif;
+color: #0066CC;
+text-align: left;
+background-color: #DDE1FF;
+padding: 0px;
+border-style: none;
+}
+
+/*Paragraphs*/
+p			{margin-top:0px; margin-bottom:0px;}
+p.important {color:#FF0000; font-weight: bold; text-decoration:underline;}
+
+/* Header */
+h1, h2, h3, h4	{font-family: Arial, Helvetica, sans-serif;}
+h1,h2 			{text-decoration: underline;}
+h3				{font-weight: bold;}
+h5				{text-align: center; font-weight: bold; font-size: 10pt;}
+
+/* List */
+li.home {margin-bottom:1em; font-size:18px;}
+ul.menu {margin:0px; margin-left:40px;}
+li.menu	{display:inline; margin:0px; margin-right:20px; font-weight:bold;}
+
+/* Page header & footer*/
+table.page_header	{background-color:#778EFF;}
+p.page_title		{font-size: 20pt; font-weight: bold; text-align:center; color: #0000FF;}
+p.page_info  		{font-size: 10pt; color: #000099;}
+p.page_footer		{font-size: 10pt; text-align:center; color: #0000FF;}
+
+/* Links */
+a:link				{color: #0055FF;}
+a:visited			{color: #0055FF;}
+a:hover				{color: #0000FF;}
+a.important:hover	{color: #0000FF; font-weight: bold;}
+
+a.no_deco:link		{color: #0055FF; text-decoration:none;}
+a.no_deco:visited	{color: #0055FF; text-decoration:none;}
+a.no_deco:hover		{color: #0000FF; text-decoration:underline;}
+
+/* Forms */
+textarea	{color: #0000FF; background-color: #B7C4FF; border-color: #0055FF;}
+input		{color: #0000FF; background-color: #FFFFFF; border-color: #0055FF; margin:0px;}
+input.edit	{color: #0000FF; background-color: #B7C4FF; border-color: #0055FF;}
+input.off	{color: #0000FF; background-color: #AAAAFF; border-color: #0055FF;}
+input.btn	{color: #0000FF; background-color: #B7C4FF; border-color: #0055FF; font-weight:bold;}
+select		{color: #0000FF; background-color: #B7C4FF; border-color: #0055FF;}
+
+/* Menu */
+form.menu	{text-align:center;}
+table.menu	{background-image:url('gfx/search_tab.gif'); background-repeat:no-repeat; background-position:center; position:absolute; left:10px; top:52px;}
+td.menu		{vertical-align:middle;}
+
+/* Login */
+table.login		{border-style:solid; border-width:2px; border-color:#0055FF; background-color:#BEC9E7}
+td.login_btn	{text-align:right;}
+td.login_info	{text-align:left; vertical-align:middle; font-size:9pt;}
+
+/*Search result*/
+table.result	{border-style:none; text-align:center; font-size:12px;}
+tr.result_tr	{border-style:solid; border-width:1px; border-color:#FF0000;}
+td.result_header{font-size:16px;}
+td.result_td1	{background-color:#99AAFF;}
+td.result_td2	{background-color:#99AAEE;}
+
+/*Home*/
+table.home		{border-style:none;}
+td.home_header	{background-color:#99AADD; text-align:center; font-size:18px; font-weight:bold;}
+td.home_content	{background-color:#D2D2FF; border-style:solid; border-width:2px; border-color:#99AADD; vertical-align:top;}
+p.home_info		{display:inline; font-size:12px;}
+
+/*FAQ*/
+p.faq_title		{margin-left:40px; font-weight: bold; text-decoration:underline; font-size:14pt;}
+p.faq_q			{margin-left:80px; margin-right:40px; font-weight: bold;}
+p.faq_a			{margin-left:80px; margin-right:40px;}
+
+/* Images */
+image {text-decoration:none; border-style:none; vertical-align:middle;}

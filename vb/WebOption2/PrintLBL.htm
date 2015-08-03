@@ -1,0 +1,120 @@
+<html>
+<head>
+<script language=vbscript>
+<!--
+	function initPage()
+		frmPrint.txtSKU.focus()	
+	end function
+
+	sub txtSKU_KeyDown()
+		nKeyCode = window.event.keyCode
+		if nKeyCode = 13 then
+			frmPrint.txtSKU.value = ucase(frmPrint.txtSKU.value)
+			
+			frmPrint.txtCountry.focus()
+		end if
+	end sub
+	
+	sub txtCountry_KeyDown()
+		nKeyCode = window.event.keyCode
+		if nKeyCode = 13 then
+			frmPrint.txtCountry.value = ucase(Trim(frmPrint.txtCountry.value))
+			
+			if frmPrint.txtCountry.value<>"" then
+				'msgbox "1"
+				frmPrint.target = "frmFLG"
+				frmPrint.action = "checkData.asp?Action=checkSKU&U_PN='" & frmPrint.txtSKU.value & "'"
+				frmPrint.submit()
+				
+				
+				frmPrint.txtQTY.focus()
+				
+			else
+				msgbox "Wrong input!Please scan the right barcode!",vbExclamation,"Error"
+				frmPrint.txtCountry.value = ""
+				frmPrint.txtCountry.focus()
+			end if
+			'msgbox frmPrint.txtCountry.value
+		end if
+	end sub
+	
+	sub txtQTY_KeyDown()
+		nKeyCode = window.event.keyCode
+		if nKeyCode = 13 then
+			frmPrint.txtQTY.value = ucase(frmPrint.txtQTY.value)
+			if IsNumeric(frmPrint.txtQTY.value) then
+				frmPrint.btnPrint.focus()
+			else
+				msgbox "Wrong input!Please input a number.",vbExclamation,"Error"
+				frmPrint.txtQTY.value = ""
+				frmPrint.txtQTY.focus()
+			end if
+		end if
+	end sub	
+	
+	function changeFocus()
+		Select Case trim(frmFLG.ckFlag.value)
+		Case "True"
+		'msgbox frmPrint.txtCountry.value
+			frmPrint.target = "ifrmPrint"
+			frmPrint.action = "PrintLBL.asp?Action=ShowData&C_PN="& frmPrint.txtCountry.value &"&U_PN=" & frmPrint.txtSKU.value
+			frmPrint.submit()
+			frmPrint.txtQTY.focus()
+			'frmPrint.btnPrint.focus()
+			'call btnPrint_Press()
+		Case "False"
+			msgbox ("This part has not been maintain in the database, pls contact Jason/Aaron"),vbExclamation,"Error"
+			frmPrint.txtSKU.value = ""
+			frmPrint.txtSKU.focus()
+		Case "BadInput"
+			msgbox "Wrong input to checkData.asp!",vbExclamation,"Error"
+		Case else
+			msgbox "Wrong return value from checkData.asp!",vbExclamation,"Error"
+		End Select
+	end function
+
+	function btnPrint_Press()
+		call ifrmPrint.printLabel()
+		msgbox "Printing done.",vbOKOnly,"Printing"
+	end function
+
+//-->
+</script>
+<title>CPMO Factory Option Chinese COO Label Printing V3.0 - Print</title>
+</head>
+
+<BODY onload="initPage()">
+
+<p align="center"><font face="Arial" color="#000080" size="5"><b>CPMO Factory Option Chinese COO Label Printing V3.0 - Print</b></font></p>
+<p align="right"><b><font face="Arial" color="#000080">Author:Terrid,Modify by Aaron</font></b></p>
+<hr color="#000080" size="4">
+
+<form name="frmPrint" method="post" target="_self">
+<P align=left>
+
+<b><font face="Arial" color="#000080">Part Number: </font></b>
+<INPUT id="txtSKU" style="WIDTH: 141px; HEIGHT: 22px" size="17" name="txtSKU" onkeydown="txtSKU_KeyDown()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><font face="Arial" color="#000080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Country: </font></b>
+<INPUT id="txtCountry" style="WIDTH: 60px; HEIGHT: 22px" size="17" name="txtCountry" onkeydown="txtCountry_KeyDown()">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><font face="Arial" color="#000080">Quantity: </font></b>
+<INPUT id="txtQTY" style="WIDTH: 60px; HEIGHT: 22px" size="17" name="txtQTY" onkeydown="txtQTY_KeyDown()">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+<input id="btnPrint" style="WIDTH: 141px; HEIGHT: 30px" size="17" type="button" onclick="btnPrint_Press()" name="btnPrint" value="Print">
+</P>
+</form>
+
+<hr color="#000080" size="4">
+<iframe id="ifrmPrint" WIDTH=850 HEIGHT=800 frameborder=no scrolling=auto src="PrintLBL.asp" name="ifrmPrint">
+</iframe>
+
+<iframe id="frmFLG" WIDTH=800 HEIGHT=10 frameborder=no scrolling=no src="checkData.asp" name="frmFLG">
+</iframe>
+
+<iframe id="frmCOUN" WIDTH=800 HEIGHT=10 frameborder=no scrolling=no src="PrintLBL.asp" name="frmCOUN">
+</iframe>
+
+</BODY>
+</html>

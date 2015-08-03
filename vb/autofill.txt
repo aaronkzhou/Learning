@@ -1,0 +1,20 @@
+
+Sub fill1()
+'
+' fill1 Macro
+'
+    Dim i, j As Double
+   MsgBox (CStr(ActiveSheet.UsedRange.Rows.Count))
+    i = ActiveSheet.UsedRange.Rows.Count
+    
+    For j = 2 To i
+    
+        Cells(j, 3) = "=VLOOKUP(RC[-1],'[NPI setup.xlsx]delete 1'!R2C3:R119C4,2,)"
+        Cells(j, 4) = "=VLOOKUP(RC[-2],'[NPI setup.xlsx]delete 1'!R2C3:R119C7,5,)"
+        Cells(j, 9).Value = 1
+        Cells(j, 7) = "EA"
+        Cells(j, 8) = "Y"
+        Cells(j, 10) = "BF0"
+         
+    Next
+End Sub

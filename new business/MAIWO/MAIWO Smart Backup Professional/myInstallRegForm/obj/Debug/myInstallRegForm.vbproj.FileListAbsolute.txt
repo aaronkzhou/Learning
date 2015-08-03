@@ -1,0 +1,44 @@
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.dll
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.pdb
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.xml
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.Installer1.resources
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.Resources.resources
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.myRegForm.resources
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.dll
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.xml
+C:\Users\apple\Desktop\maiwo\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.pdb
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.dll
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.pdb
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.xml
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\ResolveAssemblyReference.cache
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.Installer1.resources
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.Resources.resources
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.myRegForm.resources
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\GenerateResource.read.1.tlog
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\GenerateResource.write.1.tlog
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.dll
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.xml
+C:\文件都放这里\付斌文件\软件项目开发\MAIWO Smart Backup Professional\MAIWO Smart Backup Professional150227单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.pdb
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.pdb
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\bin\Debug\myInstallRegForm.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.Installer1.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.Resources.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.myRegForm.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.vbproj.GenerateResource.Cache
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150228单位\MAIWO Smart Backup Professional\myInstallRegForm\obj\Debug\myInstallRegForm.pdb
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\bin\Debug\myInstallRegForm.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\bin\Debug\myInstallRegForm.pdb
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\bin\Debug\myInstallRegForm.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\obj\Debug\myInstallRegForm.Installer1.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\obj\Debug\myInstallRegForm.Resources.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\obj\Debug\myInstallRegForm.myRegForm.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\obj\Debug\myInstallRegForm.vbproj.GenerateResource.Cache
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\obj\Debug\myInstallRegForm.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\obj\Debug\myInstallRegForm.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150309单位\MAIWO Smart Backup Professional - 副本\myInstallRegForm\obj\Debug\myInstallRegForm.pdb

@@ -1,0 +1,10 @@
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\bin\Release\myInstallRegForm.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\bin\Release\myInstallRegForm.pdb
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\bin\Release\myInstallRegForm.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\obj\Release\myInstallRegForm.Installer1.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\obj\Release\myInstallRegForm.Resources.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\obj\Release\myInstallRegForm.myRegForm.resources
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\obj\Release\myInstallRegForm.vbproj.GenerateResource.Cache
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\obj\Release\myInstallRegForm.dll
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\obj\Release\myInstallRegForm.xml
+E:\软件项目开发\MAIWO Smart Backup Professional\MAIWO150301家 香坊\MAIWO150301家 香坊\MAIWO Smart Backup Professional\myInstallRegForm\obj\Release\myInstallRegForm.pdb

@@ -1,0 +1,17 @@
+   Dim myPath$, myFile$, AK As Workbook, aRow%, tRow%, i%
+   Application.ScreenUpdating = False        
+   myPath = ThisWorkbook.Path & "\??\"    
+   myFile = Dir(myPath & "*.xlsx")           
+   Do While myFile <> ""                    
+      If myFile <> ThisWorkbook.Name Then    
+         Set AK = Workbooks.Open(myPath & myFile)        
+             For i = 1 To AK.Sheets.Count       
+
+    …………    …………    …………    …………
+
+            Next
+         Workbooks(myFile).Close False               
+      End If
+      myFile = Dir                                  
+   Loop
+   Application.ScreenUpdating = True                 

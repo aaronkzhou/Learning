@@ -1,0 +1,70 @@
+Sub grasp()
+
+Dim i%, j%
+Dim summary As String
+summaryworkbook = ThisWorkbook.Name
+filter1 = "Excel.Files(*.xlsx),*.xlsx,Excel.Files(*.xls),*.xls"
+Filename = Application.GetOpenFilename(filter1, 4, "select file")
+filename1 = Filename
+Workbooks.Open filename1
+Filename = Split(Filename, "\")(UBound(Split(Filename, "\")))
+Application.ScreenUpdating = False
+Workbooks(Filename).Sheets(1).Activate
+Delayms 3000
+
+    Columns("C:C").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("D:D").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("Q:U").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("R:R").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("X:X").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("W:W").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("H:P").Select
+    Selection.Delete Shift:=xlToLeft
+    Columns("R:V").Select
+    Selection.Replace What:="CST", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Columns("R:V").EntireColumn.AutoFit
+    Rows("1:1").Select
+    Selection.AutoFilter
+    Workbooks(Filename).ActiveSheet.Range("$A$1:$AG$20000").AutoFilter Field:=1, Criteria1:=Array( _
+        "3PAR_RP_PF", "EOS_RC_PF", "EVA_FTYP_PF", "Software_GX", "TSG_IHKOPT_PF", _
+        "TSG_OSOPT_PF"), Operator:=xlFilterValues
+    Rows("2:2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    Rows("1:1").Select
+    Selection.AutoFilter
+    Columns("A:Z").EntireColumn.AutoFit
+    Workbooks(Filename).Activate
+    For i = 2 To 9999
+    If Cells(i, 3) = 0 Then Exit For
+    Cells(i, 4) = "=VLOOKUP(C[-1],'[server OVER TAT list, base on handover 2014-11.xlsx]summary-Nov-2014'!C3,1,)"
+    Next
+        Columns("D:D").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Range("D1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Rows("1:1").Select
+    Selection.AutoFilter
+    Workbooks(Filename).ActiveSheet.Range("$A$1:$N$10000").AutoFilter Field:=4, Criteria1:="<>#N/A" _
+        , Operator:=xlAnd
+    Rows("2:2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    Rows("1:1").Select
+    Selection.AutoFilter
+    Workbooks(Filename).Activate
+    
+End Sub
+
+
+

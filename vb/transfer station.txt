@@ -1,0 +1,255 @@
+Sub filter1()
+'
+' filter1 Macro
+'
+
+    Sheets(1).Select
+    Columns("A:A").Select
+    Cells.Replace What:=".", Replacement:="", LookAt:=xlPart, SearchOrder:= _
+        xlByRows, MatchCase:=False, SearchFormat:=False, ReplaceFormat:=False
+    Rows("1:1").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$I$1000").AutoFilter Field:=4, Criteria1:= _
+        "=??????????", Operator:=xlAnd
+    Range("A2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Sheets("delete 2").Select
+    Range("B2").Select
+    ActiveSheet.Paste
+    Sheets("delete 1").Select
+    Range("D2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("delete 2").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Sheets("delete 1").Select
+    Range("E2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("delete 2").Select
+    Range("C2").Select
+    ActiveSheet.Paste
+    Sheets("delete 1").Select
+    Range("I2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Application.CutCopyMode = False
+    Selection.Copy
+        Range("I2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Replace What:="0", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+    Selection.Copy
+    Sheets("delete 2").Select
+    Range("D2").Select
+    ActiveSheet.Paste
+    
+End Sub
+Sub clearsheet1()
+'
+' clearfilter1 Macro
+'
+    Rows("1:1").Select
+    Selection.AutoFilter
+    Rows("2:2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    
+End Sub
+Sub copy1()
+'
+' copy1 Macro
+'
+
+'
+    Range("A2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Windows("ZMAS_rev18_ale_APL_CPMO_CombineC.xlsm").Activate
+    Range("A3").Select
+    ActiveSheet.Paste
+    Windows("NPI setup.xlsx").Activate
+End Sub
+Sub clearbf02()
+'
+' clearbf02 Macro
+'
+    ActiveSheet.Range("$A$1:$AE$1000").AutoFilter Field:=1, Criteria1:="=*BF02*" _
+        , Operator:=xlAnd
+    Rows("2:2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+    ActiveSheet.Range("$A$1:$AE$12").AutoFilter Field:=1
+End Sub
+Sub deleteBOM()
+'
+' test Macro
+'
+
+'
+   
+    Dim total_rows, total_cols As Integer
+    Dim seleted_row, selected_value, loop_value As Integer
+    
+    
+    
+    total_rows = ActiveSheet.UsedRange.Rows.Count
+    'total_clos
+    
+    
+
+    ActiveCell.EntireRow.Select
+    
+    selected_row = ActiveCell.Row
+    selected_value = Cells(selected_row, 2).Value
+    
+    
+    For i = selected_row + 1 To total_rows Step 1
+        loop_value = Cells(i, 2).Value
+        If selected_value >= loop_value Then
+            Exit For
+        Else
+            Rows(i).Delete
+            i = i - 1
+        
+        End If
+    Next
+    
+    Rows(selected_row).Delete
+        
+End Sub
+
+Sub plopdata()
+
+Dim total_rows1%, total_rows2%
+Dim loop_value%, d%, a%, b%, selected_value%
+Dim x%, y%, z%
+Dim selected_row1%, selected_row2%, selected_row3%
+t = 1
+
+    total_rows1 = Sheets(4).UsedRange.Rows.Count
+    total_rows2 = Sheets(3).UsedRange.Rows.Count
+    Sheets(2).Select
+    Range("A2:B2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Copy
+    Sheets("delete 3").Select
+    Range("A2").Select
+    ActiveSheet.Paste
+    Sheets("delete 3").Cells(1, 1) = Sheets("delete 4").Cells(1, 1)
+    ActiveSheet.Paste
+    Sheets("delete 3").Cells(1, 2) = "0"
+    
+    'For a = 1 To total_rows1
+
+    'Sheets(4).Cells(a, 2) = "=VLOOKUP(RC[-1],'delete 3'!C[-1]:C,2,)"
+
+    'Next
+
+    'For b = 1 To total_rows1
+
+    'Sheets(3).Select
+    'Columns("A:A").Select
+    'Selection.Find Sheets(4).Cells(b, 1)
+
+    'Next
+    Sheets("delete 3").Select
+    For d = 1 To total_rows2
+    Sheets(3).Select
+    Cells(d, 3) = "=VLOOKUP('delete 3'!RC[-2],'delete 4'!C[-2],1,)"
+    Next
+
+    Sheets(3).Select
+    Columns("C:C").Select
+    Columns("C:C").Select
+   Application.CutCopyMode = False
+    Selection.Copy
+    Range("C1").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Selection.Replace What:="#N/A", Replacement:="", LookAt:=xlPart, _
+        SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+        ReplaceFormat:=False
+
+For x = 1 To total_rows2
+    If Cells(x, 3).Value <> 0 Then
+
+    selected_row1 = Cells(x, 3).Row
+    selected_value = Sheets(3).Cells(selected_row1, 2)
+   ' MsgBox (CStr(selected_row1))
+ 
+End If
+    If Cells(x, 3).Value <> 0 Then
+
+
+     For y = selected_row1 + 1 To total_rows2
+        loop_value = Sheets(3).Cells(y, 2).Value
+        If selected_value = loop_value Then Exit For
+        If selected_value + 1 = loop_value Then
+
+          Sheets(3).Cells(t, 4) = Sheets(3).Cells(y, 1)
+          Sheets(3).Cells(t, 6) = Sheets(3).Cells(t, 4)
+          Sheets(3).Cells(t, 5) = Sheets(3).Cells(selected_row1, 3)
+          Sheets(3).Cells(t, 7) = "=VLOOKUP(RC[-1],'delete 2'!C[-6]:C[-4],3,)"
+          Sheets(3).Cells(t, 8) = "=VLOOKUP(RC[-2],'delete 2'!C[-7]:C[-4],4,)"
+          t = t + 1
+        End If
+
+
+    Next
+    End If
+    
+    Next
+
+
+End Sub
+
+
+
+
+
+
+
+Sub clearsheet2()
+'
+' autoclear Macro
+'
+
+'
+    Rows("1:1").Select
+    Selection.AutoFilter
+    Rows("2:2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.ClearContents
+End Sub
+
+
+Sub filtersheet2()
+'
+' filterlevel Macro
+    Sheets(2).Select
+    Rows("1:1").Select
+    Selection.AutoFilter
+    ActiveSheet.Range("$A$1:$D$1000").AutoFilter Field:=2, Criteria1:="1"
+    
+End Sub
+
+Sub unfiltersheet2()
+'
+' unfilter Macro
+    Rows("1:1").Select
+    Selection.AutoFilter
+    
+End Sub
+
+Sub autoclear()
+
+    Rows("2:2").Select
+    Range(Selection, Selection.End(xlDown)).Select
+    Selection.Delete Shift:=xlUp
+End Sub
+

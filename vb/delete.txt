@@ -1,0 +1,37 @@
+Sub test()
+'
+' test Macro
+'
+
+'
+   
+    Dim total_rows, total_cols As Integer
+    Dim seleted_row, selected_value, loop_value As Integer
+    
+    
+    
+    total_rows = ActiveSheet.UsedRange.Rows.Count
+    'total_clos
+    
+    
+
+    ActiveCell.EntireRow.Select
+    
+    selected_row = ActiveCell.Row
+    selected_value = Cells(selected_row, 1).Value
+    
+    
+    For i = selected_row + 1 To total_rows Step 1
+        loop_value = Cells(i, 1).Value
+        If selected_value >= loop_value Then
+            Exit For
+        Else
+            Rows(i).delete
+            i = i - 1
+        
+        End If
+    Next
+    
+    Rows(selected_row).delete
+        
+End Sub

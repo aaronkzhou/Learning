@@ -1,0 +1,72 @@
+<HTML><HEAD>
+<script language=vbscript><!--
+	public function initPage()
+		frmSKU.txtPLAT.focus()
+	end function
+	
+	sub txtSKU_KeyDown()
+		nKeyCode = window.event.keyCode
+		if nKeyCode = 13 then
+			frmSKU.txtSKU.value = ucase(frmSKU.txtSKU.value)
+			if trim(frmSKU.txtSKU.value)<>"" then 
+				frmSKU.txtSKU.focus()
+			else
+				msgbox "The input Platform is empty, please re-input!",vbCritical
+				frmSKU.txtPLAT.value = ""
+				frmSKU.txtPLAT.focus()
+			end if
+		end if
+	end sub
+	
+	sub txtDES_KeyDown()
+		nKeyCode = window.event.keyCode
+		if nKeyCode = 13 then
+			frmSKU.txtSKU.value = ucase(frmSKU.txtSKU.value)
+			if trim(frmSKU.txtPLAT.value)<>"" then
+				if trim(frmSKU.txtSKU.value) <> "" then
+					call btnADD_Press()
+				else
+					msgbox "The input SKU is empty, please re-input!",vbCritical
+					frmSKU.txtSKU.value = ""
+					frmSKU.txtSKU.focus()
+				end if
+			else
+				msgbox "The input Platform is empty, please re-input!",vbCritical
+				frmSKU.txtPLAT.value = ""
+				frmSKU.txtPLAT.focus()
+			end if
+		end if
+	end sub
+	
+	function btnADD_Press()
+		frmSKU.action = "addData.asp?Action=NewSKU&PLAT=" & frmSKU.txtPLAT.value & "&SKU=" & frmSKU.txtSKU.value
+		frmSKU.submit()
+		frmSKU.txtPLAT.value = ""
+		frmSKU.txtSKU.value = ""
+		frmSKU.txtPLAT.focus()
+	end function
+//-->
+</script>
+</HEAD>
+<META http-equiv=Content-Type content="text/html; charset=unicode">
+<BODY onload="initPage()">
+<p align="center"><font face="Arial" color="#000080" size="5"><b>CPMO Factory Option COO Label Printing V1.00 - SKU Management</b></font></p>
+<p align="right"><b><font face="Arial" color="#000080">Date:2006-04-25 
+Author:TerridZhao(2322)</font></b></p>
+<hr color="#000080" SIZE="4">
+<form name="frmSKU" method="post" target="ifrSKU">
+<p align="left"><b><font face="Arial" color="#000080">SKU:</font></b>
+<input id="txtSKU" onkeydown="txtSKU_KeyDown()" style="WIDTH: 141px; HEIGHT: 22px" size="17" name="txtSKU">&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<b><font face="Arial" color="#000080">Description:</font></b>
+<input id="txtDES" onkeydown="txtDES_KeyDown()" style="WIDTH: 143px; HEIGHT: 22px" size="30" name="txtDES">&nbsp;&nbsp;
+<b><font face="Arial" color="#000080">Country Of Origin:</font></b>
+<input id="txtCOO" onkeydown="txtCOO_KeyDown()" style="WIDTH: 143px; HEIGHT: 22px" size="30" name="txtCOO">&nbsp;&nbsp;
+<input id="btnADD" type="button" onclick="btnADD_Press()" name="btnADD" value="ADD">
+</p>
+</form>
+<hr color="#000080" SIZE="4">
+<iframe id="ifrSKU" WIDTH=800 HEIGHT=100% frameborder=no SCROLLING=auto src="adminSKU.asp" name="ifrSKU">
+</iframe>
+</BODY>
+</HTML>

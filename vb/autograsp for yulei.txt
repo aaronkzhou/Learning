@@ -1,0 +1,46 @@
+
+Sub autograsp()
+
+Dim sc%, i%, j%, t%, total_rows%
+Dim sh As Worksheet
+sc = Sheets.Count
+Set sh = Sheets.Add(after:=Sheets(sc))
+sh.Name = "summary"
+sh.[b1] = "L/I"
+sh.[c1] = "Date"
+sh.[d1] = "MM#or FPO"
+sh.[e1] = "failure description"
+sh.[f1] = "part number#AA or PBA"
+sh.[g1] = "serial number(board or system)"
+sh.[h1] = "2DID#"
+sh.[i1] = "Station"
+sh.[j1] = "PL"
+
+t = 1
+For i = 1 To sc
+
+
+
+ total_rows = Sheets(i).UsedRange.Rows.Count
+ 
+ MsgBox (CStr(total_rows))
+  
+For j = 3 To total_rows
+'j = 1
+sh.Cells(t + 1, 1) = Sheets(i).Name
+sh.Cells(t + 1, 2) = Sheets(i).Cells(j, 1)
+sh.Cells(t + 1, 3) = Sheets(i).Cells(j, 2)
+sh.Cells(t + 1, 4) = Sheets(i).Cells(j, 3)
+sh.Cells(t + 1, 5) = Sheets(i).Cells(j, 4)
+sh.Cells(t + 1, 6) = Sheets(i).Cells(j, 5)
+sh.Cells(t + 1, 7) = Sheets(i).Cells(j, 6)
+sh.Cells(t + 1, 8) = Sheets(i).Cells(j, 7)
+sh.Cells(t + 1, 9) = Sheets(i).Cells(j, 8)
+sh.Cells(t + 1, 10) = Sheets(i).Cells(j, 9)
+
+t = t + 1
+
+Next
+Next
+
+End Sub

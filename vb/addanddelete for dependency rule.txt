@@ -1,0 +1,69 @@
+Sub addanddelete()
+
+Dim i%, j%, k%, x%, y%, z%, total_rows%, a%, b%, c%, d%, e%, f%
+total_rows1 = Sheets(3).UsedRange.Rows.Count
+total_rows2 = Sheets(4).UsedRange.Rows.Count
+
+m = total_rows2
+
+For i = 1 To total_rows1
+
+For a = 2 * m - 1 To 0 Step -1
+
+Sheets(1).Cells(2 * m * i - a, 1) = Sheets(3).Cells(i, 1)
+
+Next
+
+c = 2 * m - 1
+'For c = 2 * m - 1 To 0 Step -2
+For b = 1 To total_rows2
+
+Sheets(1).Cells(2 * m * i - c, 2) = Sheets(4).Cells(b, 1)
+Sheets(1).Cells(2 * m * i - (c - 1), 2) = Sheets(4).Cells(b, 1)
+
+c = c - 2
+Next
+Next
+For j = 1 To m * total_rows1
+
+'For j = 1 To total_rows2
+
+
+Sheets(1).Cells(2 * j, 4) = "'0001"
+Sheets(1).Cells(2 * j - 1, 5) = "HP_GOODS_SEL"
+Sheets(1).Cells(2 * j, 5) = "HP_0D1_DEL_COMP_PRO"
+Next
+
+
+For k = 1 To 2 * m * total_rows1
+
+Sheets(1).Cells(k, 6) = "A"
+Next
+
+For x = 1 To total_rows1
+
+For d = total_rows2 - 1 To 0 Step -1
+
+Sheets(2).Cells(m * x - d, 1) = Sheets(3).Cells(x, 1)
+
+Next
+
+f = total_rows2 - 1
+For e = 1 To total_rows2
+Sheets(2).Cells(m * x - f, 2) = Sheets(4).Cells(e, 1)
+f = f - 1
+
+Next
+Next
+
+For y = 1 To m * total_rows1
+
+Sheets(2).Cells(y, 5) = "HP_STD_COMP_SEL"
+Sheets(2).Cells(y, 6) = "D"
+Next
+
+
+End Sub
+
+'Workbooks.Open Filename:=ThisWorkbook.Path & "\" & "22.xls"
+

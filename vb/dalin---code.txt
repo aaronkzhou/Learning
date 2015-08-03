@@ -1,0 +1,222 @@
+Sub smartfunnel()
+    Dim h, l As Integer   '行，列
+    Dim a, b, arrlong As Integer
+     Dim arrPL() As String
+     Dim temp1, hang
+     Dim from, too, k
+    Dim arrOsrName() As String
+    Dim arrIsrName() As String
+    Dim bundle As String
+     hang = 1
+    a = 14
+    b = 1
+    h = 3
+    l = 1
+        
+                   from = Array(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34)
+    too = Array(14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48)
+    
+    '把rawdata原封不动补到output
+    
+    For b = 0 To 31
+        
+            While Sheets("rawdata").Cells(h, 1).Value <> ""
+                
+                Sheets("output").Cells(h, too(b)).Value = Sheets("rawdata").Cells(h, from(b)).Value
+                
+                h = h + 1
+                Wend
+                h = 3
+    Next b
+     '统一全半角
+         While Sheets("rawdata").Cells(h, 1).Value <> ""
+            
+             Sheets("output").Cells(h, 16).Value = WorksheetFunction.Asc(Sheets("rawdata").Cells(h, 3).Value) '统一全半角
+         h = h + 1
+         Wend
+          h = 3
+      '分列PL
+           While Sheets("rawdata").Cells(h, 1).Value <> ""
+           
+             arrPL = Split(Cells(h, 28), " ")
+            arrlong = UBound(arrPL)  '获取数组长度
+            If arrlong > 0 Then
+            Sheets("output").Cells(h, 29).Value = arrPL(0)
+            End If
+            h = h + 1
+            Wend
+            h = 3
+            
+            'VlookUP BG1 ,ITA,BU,MainPL
+             While Sheets("rawdata").Cells(h, 1).Value <> ""
+             If Sheets("output").Cells(h, 29) <> "" Then
+                Set hang = Sheets("PLMapping").Range("D:D").Find(Sheets("output").Cells(h, 29).Value)
+                 If Not hang Is Nothing Then
+                        hang = Sheets("PLMapping").Range("D:D").Find(Sheets("output").Cells(h, 29).Value).Row()
+                        Sheets("output").Cells(h, 30).Value = Sheets("PLMapping").Cells(hang, 5).Value
+                        Sheets("output").Cells(h, 31).Value = Sheets("PLMapping").Cells(hang, 6).Value
+                        Sheets("output").Cells(h, 11).Value = Sheets("PLMapping").Cells(hang, 8).Value
+                        Sheets("output").Cells(h, 52).Value = Sheets("PLMapping").Cells(hang, 7).Value
+                End If
+                End If
+            h = h + 1
+            Wend
+            h = 3
+            hang = 1
+            'Vlookup  Owner Team , Owner SR , OPTY_TYPE
+              While Sheets("rawdata").Cells(h, 1).Value <> ""
+             
+            Set hang = Sheets("salesMapping").Range("A:A").Find(Sheets("output").Cells(h, 21).Value)
+             If Not hang Is Nothing Then
+                    hang = Sheets("salesMapping").Range("A:A").Find(Sheets("output").Cells(h, 21).Value).Row()
+                    Sheets("output").Cells(h, 8).Value = Sheets("salesMapping").Cells(hang, 2).Value
+                     Sheets("output").Cells(h, 9).Value = Sheets("salesMapping").Cells(hang, 3).Value
+                      Sheets("output").Cells(h, 10).Value = Sheets("salesMapping").Cells(hang, 5).Value
+            End If
+            
+            h = h + 1
+            Wend
+            h = 3
+            hang = 1
+            
+            'Vlookup FY14 Team , FY14 OSR , FY14 ISR , Leader,Vertical
+            
+            While Sheets("rawdata").Cells(h, 1).Value <> ""
+             
+            Set hang = Sheets("NAL").Range("C:C").Find(Sheets("output").Cells(h, 16).Value)
+             If Not hang Is Nothing Then
+                    hang = Sheets("NAL").Range("C:C").Find(Sheets("output").Cells(h, 16).Value).Row()
+                    Sheets("output").Cells(h, 4).Value = Sheets("NAL").Cells(hang, 23).Value
+                     Sheets("output").Cells(h, 5).Value = Sheets("NAL").Cells(hang, 25).Value
+                      Sheets("output").Cells(h, 6).Value = Sheets("NAL").Cells(hang, 29).Value
+                       Sheets("output").Cells(h, 7).Value = Sheets("NAL").Cells(hang, 18).Value
+                       Sheets("output").Cells(h, 51).Value = Sheets("NAL").Cells(hang, 8).Value
+            End If
+            
+            h = h + 1
+            Wend
+ 
+            h = 3
+            hang = 1
+            ' Not Legal Name  补 FY14 Team
+             While Sheets("rawdata").Cells(h, 1).Value <> ""
+                 If Sheets("output").Cells(h, 4).Value = "" Then
+                 Sheets("output").Cells(h, 1).Value = "Not legal name"
+                 Sheets("output").Cells(h, 4).Value = Sheets("output").Cells(h, 8)
+                
+            
+                    End If
+            h = h + 1
+            Wend
+            h = 3
+           ' 补 FY 14 OSR and ISR
+                While Sheets("rawdata").Cells(h, 1).Value <> ""
+                If Sheets("output").Cells(h, 5).Value = "" And Sheets("output").Cells(h, 10).Value = "OSR" Then
+                   
+                        Sheets("output").Cells(h, 5).Value = Sheets("output").Cells(h, 9).Value
+                End If
+                    If Sheets("output").Cells(h, 5).Value = "" And Sheets("output").Cells(h, 10).Value = "ISR" Then
+                         
+                         Sheets("output").Cells(h, 6).Value = Sheets("output").Cells(h, 9).Value
+                    
+                    End If
+            h = h + 1
+             Wend
+            h = 3
+            '  根据Owner SR 处理 FY14 OSR name
+                        While Sheets("rawdata").Cells(h, 1).Value <> ""
+                        
+                        
+                        arrOsrName = Split(Sheets("output").Cells(h, 5), "|")
+      
+                        arrlong = UBound(arrOsrName)  '获取数组长度
+                        
+                        If arrlong >= 1 Then
+                        
+                        For k = 0 To arrlong    '遍历数组
+                           
+                                If arrOsrName(k) = Sheets("output").Cells(h, 9) Then
+                            
+                                Sheets("output").Cells(h, 5) = Sheets("output").Cells(h, 9)
+                        End If
+                         Next k
+                        End If
+                        
+                        h = h + 1
+                    Wend
+                    h = 3
+                   '  根据Owner SR 处理FY14 ISR name
+                        While Sheets("rawdata").Cells(h, 1).Value <> ""
+                    
+                        arrIsrName = Split(Sheets("output").Cells(h, 6), "|")
+                        arrlong = UBound(arrIsrName)  '获取数组长度
+                        
+                        If arrlong >= 1 Then
+                        
+                        For k = 0 To arrlong    '遍历数组
+                           
+                                If arrIsrName(k) = Sheets("output").Cells(h, 9) Then
+                            
+                                Sheets("output").Cells(h, 6) = Sheets("output").Cells(h, 9)
+                        End If
+                         Next k
+                        End If
+                        h = h + 1
+                    Wend
+                    h = 3
+
+                     '补 BG1
+               While Sheets("rawdata").Cells(h, 1).Value <> ""
+               If Sheets("output").Cells(h, 31) = "" Then
+                   Set hang = Sheets("PLMapping").Range("C:C").Find(Sheets("output").Cells(h, 26).Value)
+                    If Not hang Is Nothing Then
+                    hang = Sheets("PLMapping").Range("C:C").Find(Sheets("output").Cells(h, 26).Value).Row()
+                    Sheets("output").Cells(h, 31).Value = Sheets("PLMapping").Cells(hang, 6).Value
+                    End If
+                    End If
+            h = h + 1
+            Wend
+            h = 3
+            hang = 1
+            ' 补BU
+                While Sheets("rawdata").Cells(h, 1).Value <> ""
+               If Sheets("output").Cells(h, 11) = "" Then
+                   Set hang = Sheets("PLMapping").Range("C:C").Find(Sheets("output").Cells(h, 26).Value)
+                    If Not hang Is Nothing Then
+                    hang = Sheets("PLMapping").Range("C:C").Find(Sheets("output").Cells(h, 26).Value).Row()
+                    Sheets("output").Cells(h, 11).Value = Sheets("PLMapping").Cells(hang, 8).Value
+                    Else
+                        Sheets("output").Cells(h, 11).Value = "Other"
+                    End If
+                    End If
+            h = h + 1
+            Wend
+            h = 3
+            hang = 1
+            
+             '处理Status
+            While Sheets("rawdata").Cells(h, 1).Value <> ""
+                    bundle = Sheets("output").Cells(h, 14).Value
+                    Select Case bundle
+                    Case "Pipeline"
+                    Sheets("output").Cells(h, 12).Value = "Funnel"
+                    Case "Won"
+                    Sheets("output").Cells(h, 12).Value = "Commit"
+                    Case "Commit"
+                    Sheets("output").Cells(h, 12).Value = "Commit"
+                    Case "Upside"
+                    Sheets("output").Cells(h, 12).Value = "Upside"
+                End Select
+                h = h + 1
+                Wend
+            h = 3
+    ' 补 Month 和 Close Month
+       While Sheets("rawdata").Cells(h, 1).Value <> ""
+            Sheets("output").Cells(h, 13).Value = Year(Sheets("output").Cells(h, 37)) & "-" & Month(Sheets("output").Cells(h, 37))
+            Sheets("output").Cells(h, 50).Value = Year(Sheets("output").Cells(h, 35)) & "-" & Month(Sheets("output").Cells(h, 35))
+        h = h + 1
+        Wend
+        
+        MsgBox "注意：还差ITA， FY14 Team 的修改， 删掉行（类似HK）和 Overdue ，     No PL No rev ， 离职销售，Complete"
+        
+End Sub

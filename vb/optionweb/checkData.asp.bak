@@ -1,0 +1,59 @@
+<%@ Language=VBScript %>
+<%
+	dim dicData,strAction,strQPN,strQuery,strContent,strContent1,lblFlag,f_QUE
+	
+	Set dicData = CreateObject("Scripting.Dictionary")
+	
+	For Each x In Request.QueryString
+		dicData.add x,Request.QueryString(x)
+	Next
+	
+	strAction = dicData.item("Action")
+	
+	strContent = "<body>"
+	strContent1 = "<body onload='parent.changeFocus()'>"
+	
+	lblFlag = "Blank"
+	strQPN = ""
+	f_QUE = True
+	
+	Select Case trim(strAction) 
+	Case "checkSKU"
+		strQPN = dicData.item("U_PN")
+		strQuery = "SELECT * FROM Option_SKU WHERE SKU=" & trim(strQPN)
+	Case ""
+		f_QUE = True
+	Case Else
+		f_QUE = False
+	End Select
+	
+	If f_QUE = True Then
+		strConn	= "DRIVER={SQL Server};SERVER=127.0.0.1;" & _
+			  "UID=iss_client;PWD=issdata;DATABASE=CPMOData"
+			
+		set dbRS = Server.CreateObject("ADODB.RecordSet")
+		dbRS.ActiveConnection = strConn
+		dbRS.Source = strQuery
+		dbRS.Open
+		
+		If dbRS.EOF then
+			lblFlag = "False"
+		Else
+			lblFlag = "True"
+		End If
+		dbRS.Close
+	else
+		lblFlag = "BadInput"
+	End If
+%>
+<html>
+<head>
+</head>
+<% If lblFlag <> "Blank" Then %>
+<% response.write strContent1 & vbCRLF %>
+<% Else %>
+<% response.write strContent & vbCRLF %>
+<% End If %>
+<input type=hidden id="ckFlag" name="ckFlag" value="<%=lblFlag%>">
+</body>
+</html>
