@@ -11,7 +11,7 @@ header('Content-Type:text/html;charset=UTF-8');
 require_once 'Classes/PHPExcel.php'; 
 $phpexcel = new PHPExcel();
 $phpreader = new PHPExcel_Reader_Excel2007();
-$excel = $phpreader->load("pick list1507.xlsx");
+$excel = $phpreader->load("pick list1508.xlsx");
 $sheetName = $excel->getSheetNames();
 $sheetNumber = $excel->getSheetCount();
 $sheet = $excel->getSheet(0);

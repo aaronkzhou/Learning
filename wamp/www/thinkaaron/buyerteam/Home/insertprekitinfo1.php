@@ -70,14 +70,12 @@ else
 						<A style="color: #B22222;" href="http://16.187.224.112:8080/thinkaaron/buyerteam/home/insertprekitinfo3.php" target="main">
 						ZMOD<-->KMAT  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						</A>
-			</SPAN>
-			<SPAN style="float: right;">
-				<A style="color: #B22222;" href="#0" class="cd-popup-trigger">
-				Upload image  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				</A>
-			</span>
-				
-					
+				</SPAN>
+				<SPAN style="float: right;">
+					<A style="color: #B22222;" href="#0" class="cd-popup-trigger1">
+					Upload image  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</A>
+				</span>	
 				</P>
 			</DIV>
 			
@@ -86,9 +84,14 @@ else
 		</DIV>
 		
 	</div>
-			<div class="cd-popup" role="alert" style="">
-						<div class="cd-popup-container" >
-							<p>Are you sure you want to delete this element?</p>
+			<div class="cd-popu" role="alert" style="margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;">
+						<div class="cd-popup-container" style="" >
+							<p style="">Are you sure you want to delete this element?</p>
 							<ul class="cd-buttons">
 								<li><a href="#0">Yes</a></li>
 								<li><a href="#0">No</a></li>
