@@ -21,8 +21,8 @@ $html = file_get_contents('http://shopfloor.asiapac.hp.com/sfweb/DefaultQueryRep
 $preg="/WorkObject\?object=([B-C|0]\w\w\w\w\w\w)\"/U";
 preg_match_all($preg,$html,$result1);
 //var_dump($result1);
-// echo $result1[1][1];
 $html1=file_get_contents('http://shopfloor.asiapac.hp.com/sfweb/QuickSearch?object='.$result1[1][0].'&search=Overview');
+
 if(strstr($html1,'BF20_TSG_CUSQUEUE'))
 {
 $IFFE2='Y';
@@ -36,7 +36,9 @@ $preg="/DisplayOrder\?bpo=.*&revisionNo=1/U";
 $preg1="/G\d\d\d\d\d\d\d\d-000000/U";
 preg_match($preg,$html,$result1);
 preg_match($preg1,$html,$result3);
+
 $BPO=$result3[0];
+
 $html=file_get_contents('http://shopfloor.asiapac.hp.com/sfweb/'.$result1[0]);
 $preg="/align=left.*\n.*td.*object=(.*)\"\>.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*P_SHIPPED.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*\n.*mergingGroup=(.*)\"\>.*\n.*\n.*boxId=(.*)\"\>/U";
 preg_match_all($preg,$html,$result2);
@@ -73,6 +75,7 @@ style="width:60%;margin-left:280px;font-family: sans-serif">
 <th>if FE2</th>
 <th>last WO</th>
 <?php
+
 $db=mysql_connect('localhost','root','') or die('unable to connect.check your connection prameters.');
 mysql_select_db('calculate',$db) or die(mysql_error($db));
 $query2='select * from calculateforqueryplo where PLO<>""';

@@ -132,7 +132,7 @@
 			<input type='text' class='SCREWPN' id='SCREWPN' name='SCREWPN' style='background: rgb(0, 0, 0); padding: 7px 10px; border-radius: 4px; border: 1px solid rgb(26, 117, 152); border-image: none; color: rgb(255, 255, 255); font-weight: bold;' onkeydown='keydown();' />
 			<br>
 			<br>
-			<img src='http://16.187.224.112:8080/thinkaaron/buyerteam/Home/View/Prekit1/pics/$CARRIERPN.jpg' height='90' width='160'/>
+			<img src='http://16.187.224.112:8080/thinkaaron/buyerteam/Home/View/Prekit1/pics/$CARRIERPN.jpg' width='40%' height='40%'/>
 			<br>
 			</body>
 			</html>"; ECHO '<BR>'; echo "托盘:".$output[0]['HOLDERPN']; ECHO '<BR>'; ECHO '<BR>'; ECHO '<BR>'; } ?>

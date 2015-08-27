@@ -50,6 +50,42 @@ class IndexController extends Controller
 		}
 		}
 	}
+	public function insert1()
+	{
+	    header('Content-Type:text/html;charset=UTF-8');
+		$all=I('post.optionlist');
+		$row=explode("\n",$all);
+		//var_dump($row);
+		$count=count($row);
+		for ($i=0;$i<$count;$i++)
+		{
+		//echo $row[$i];
+		$array = explode(",", $row[$i]);
+		//var_dump($array);
+		if ($array[0]!=='')
+		{
+		$Option_ViewEn=M('Option_ViewEn');
+		$array[0]=trim($array[0]);
+		$array[1]=trim($array[1]);
+		$array[2]=trim($array[2]);
+		$array[3]=trim($array[3]);
+		$query="insert into CPMOData1.dbo.Option_ViewEn(SKU,Description,COO,Country,RMN) VALUES('$array[0]',N'$array[1]','$array[2]',N'$array[3]',NULL)";
+		echo $query;
+		$query = iconv("utf-8", "gbk", $query);
+		
+		//mssql_query("SET NAMES GB2312");
+		mssql_query($query);
+		/* if(mssql_query($query))
+		{}
+		else{
+			die(mssql_error());
+		} */
+		//ECHO "DONE";
+		echo "<br>";
+		}
+		}
+	}
+	
 	public function delete()
 	{
 	

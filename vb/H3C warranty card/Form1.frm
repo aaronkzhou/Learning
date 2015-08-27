@@ -90,7 +90,7 @@ Attribute VB_Exposed = False
 Private Sub Command1_Click()
 
 i = Text1.Text
-Dim xlApp As Excel.Application
+Dim xlApp As excel.Application
 Dim ExcelShowStr As String
 Set xlApp = CreateObject("Excel.Application")
 xlApp.Visible = False
@@ -98,7 +98,7 @@ Dim xlBook As Workbook
 Dim xlSheet As Worksheet
 Dim xlrow, sheetIndex, sheetColumn As Integer
 Path = App.Path
-fileurl = Path & "\test.xls"
+fileurl = "C:\aaron\test.xls"
 Set xlBook = xlApp.Workbooks.Open(fileurl, Editable)
 Set xlSheet = xlApp.ActiveSheet
 QRmaker1.InputData = i
@@ -133,7 +133,7 @@ End With
 H3CBOM = Mid(i, 3, 8)
 Set conn = New ADODB.Connection
 Set rs = New ADODB.Recordset
-strQuery = "select H3CPID From CPMOData1.dbo.H3CWarrantycard where H3CBOMCODE='" & H3CBOM & "'"
+strQuery = "select H3CPID From CPMOData1.dbo.Warrantycard where H3CBOMCODE='" & H3CBOM & "'"
 conn.ConnectionString = "Driver={sql server};server=16.187.224.112;uid=sa;pwd=support;database=CPMOData1"
 conn.ConnectionTimeout = 25
 conn.Open
@@ -145,19 +145,36 @@ H3CPID = rs.Fields("H3CPID").Value
 rs.Close
 xlSheet.Cells(34, 5) = H3CPID
 xlSheet.Cells(6, 5) = H3CPID
-xlSheet.PrintOut
+Dim devPrinter As Printer
+For Each devPrinter In Printers
+    If devPrinter.DeviceName = "HP LaserJet" Then
+       '设定为系统缺省打印机。
+       
+       Set Printer = devPrinter
+       
+       ' 终止查找打印机。
+       Exit For
+       
+    End If
+Next
+Orientation = xlPortrait
+ActiveSheet.PrintOut
 xlBook.Close savechanges:=False
 Application.DisplayAlerts = False
 xlApp.Quit
+TerminateProcess ("EXCEL.EXE")
+'terminateprocess ()
 
 Kill Path & "\" & i & ".jpg"
-
+Unload Form1
 End Sub
 
 
-
-Private Sub DataGrid1_Click()
-
+Private Sub TerminateProcess(app_exe As String)
+    Dim Process As Object
+    For Each Process In GetObject("winmgmts:").ExecQuery("Select Name from Win32_Process Where Name = '" & app_exe & "'")
+        Process.Terminate
+    Next
 End Sub
 
 Private Sub Text1_KeyPress(KeyAscii As Integer)

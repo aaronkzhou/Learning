@@ -1,6 +1,1 @@
 行 22: 控件 QRmaker1 的类 QRMAKERLib.QRmaker 不是一个已加载的控件类。
-行 28: 属性名 _Version 在 QRmaker1 中是无效的。
-行 29: 属性名 _ExtentX 在 QRmaker1 中是无效的。
-行 30: 属性名 _ExtentY 在 QRmaker1 中是无效的。
-行 31: 属性名 _StockProps 在 QRmaker1 中是无效的。
-行 22: 属性 Picture 在 QRmaker1 中不能被设置。

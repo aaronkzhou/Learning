@@ -38,80 +38,12 @@
 					
 				</P>
 			</DIV>
-			<div class="container" style="padding: 100px 50px 10px;" >		
-			</DIV>
 		</form>
 		
 	</div>	
     </div>
    
-	<div id="myModal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-					<h4 class="modal-title" id="myModalLabel">Non Closed Local Patch Found:</h4>
-					<hr>
-					<div class="modal-body">
-						<div class="model_content" ></div>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-warning" data-dismiss="modal">hold release</button>
-						<button type="button" class="btn btn-danger" onclick="opennRelease()">keep CR open & release</button>
-						<button type="button" class="btn btn-success" onclick="closenRelease()">close CR & release</button>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 	</body>
 	
-	<script type="text/javascript">
-
-    function clickRlease()
-    {
-		document.write("<h1>I just want to test it</h1>");
-		
-        debugger;
-        $.ajax
-		(
-		{
-            type : "post",
-            url: "http://16.187.224.28:8081/prod/hp.php/Home/Diags/checkLocalPatch",
-            data: 
-			{
-                p: $('#p').val()
-            },
-            async : false,
-			
-            success : function(result)
-            {
-                debugger;
-                if(result.clean==true)
-                {
-                    var p=$('#p').val();
-                    var ver=$('#ver').val();
-                    var relTo=$('#relTo').val();
-                    window.location.href='http://16.187.224.28:8081/prod/hp.php/Home/Diags/upgrade/ver/'+ver+'/p/'+p+'/relTo/'+relTo;
-                }
-                else
-				{
-                    debugger;
-                    var info="";
-                    for(var i = 0; i < result.items.length;i++)
-                    {
-                        info=info+"<p>"+result.items[i].remusFailureMsg+"</p>";
-						//document.write("<h1>I just want to test it</h1>");
-						$('.model_content').html('<div class="alert alert-danger" role="alert">'+info+'</div>');
-						$('#myModal').modal('show');
-                    }
-                }
-            }
-			
-        }
-		);
-    }
-	</script>
-
 
 </html>
