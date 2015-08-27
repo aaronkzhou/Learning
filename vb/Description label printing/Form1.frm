@@ -190,7 +190,6 @@ z = Text3.Text
 z = Trim(z)
 Dim i%
 Dim xlApp As Excel.Application
-Dim ExcelShowStr As String
 Set xlApp = CreateObject("Excel.Application")
 xlApp.Visible = False
 Dim xlBook As Workbook
@@ -201,7 +200,6 @@ Path = App.Path
 fileurl = "C:\aaron\Chinese.xls"
 Set xlBook = xlApp.Workbooks.Open(fileurl, Editable)
 Set xlSheet = xlApp.ActiveSheet
-
 Set conn = New ADODB.Connection
 Set rs = New ADODB.Recordset
 Set rs1 = New ADODB.Recordset
@@ -212,8 +210,9 @@ conn.ConnectionTimeout = 25
 conn.Open
 If conn.State <> adStateOpen Then MsgBox ("can't connect database")
 rs.Open strQuery, conn
-rs.MoveFirst
-If rs.EOF Then MsgBox ("This SKU has not been maintained, pls contact Product engineer Jiang,zheng")
+If rs.EOF Then
+MsgBox ("This SKU has not been maintained, pls contact Product engineer Jiang,zheng")
+Else
 Description = rs.Fields("Description").Value
 rs.Close
 rs1.Open strQuery1, conn
@@ -226,13 +225,8 @@ xlSheet.Cells(16, 3) = Country
 Dim devPrinter As Printer
 For Each devPrinter In Printers
     If devPrinter.DeviceName = "HP LaserJet" Then
-
-       
        Set Printer = devPrinter
-       
-     
        Exit For
-       
     End If
 Next
 For i = 1 To z
@@ -245,6 +239,7 @@ TerminateProcess ("EXCEL.EXE")
 MsgBox ("done")
 'terminateprocess ()
 Unload Form1
+End If
 
 End Sub
 Private Sub TerminateProcess(app_exe As String)
@@ -268,7 +263,6 @@ z = Text3.Text
 z = Trim(z)
 Dim i%
 Dim xlApp As Excel.Application
-Dim ExcelShowStr As String
 Set xlApp = CreateObject("Excel.Application")
 xlApp.Visible = False
 Dim xlBook As Workbook
@@ -276,7 +270,7 @@ Dim xlSheet As Worksheet
 Dim xlrow, sheetIndex, sheetColumn As Integer
 Dim Description As String
 Path = App.Path
-fileurl = "C:\aaron\Chinese.xls"
+fileurl = "C:\aaron\English.xls"
 Set xlBook = xlApp.Workbooks.Open(fileurl, Editable)
 Set xlSheet = xlApp.ActiveSheet
 
@@ -290,6 +284,9 @@ conn.ConnectionTimeout = 25
 conn.Open
 If conn.State <> adStateOpen Then MsgBox "can't connect database"
 rs.Open strQuery, conn
+If rs.EOF Then
+MsgBox ("This SKU has not been maintained, pls contact Product engineer Jiang,zheng")
+Else
 rs.MoveFirst
 Description = rs.Fields("Description").Value
 rs.Close
@@ -323,6 +320,7 @@ TerminateProcess ("EXCEL.EXE")
 MsgBox ("done")
 'terminateprocess ()
 Unload Form1
+End If
 End Sub
 
 Private Sub Text1_KeyDown(KeyCode As Integer, Shift As Integer)
