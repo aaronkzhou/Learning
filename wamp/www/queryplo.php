@@ -9,7 +9,7 @@ $row=explode("\n",$tag);
 $db=mysql_connect('localhost','root','') or die('unable to connect.Pls check your connection prameters.');
 mysql_select_db('calculate',$db) or die(mysql_error($db));
 $count=count($row);
-$query1='truncate table calculateforqueryplo';
+$query1='truncate table calculateforqueryplo2';
 mysql_query($query1,$db);
 
 for($j=0;$j<$count;$j++)
@@ -20,7 +20,6 @@ $PLO=trim($PLO);
 $html = file_get_contents('http://shopfloor.asiapac.hp.com/sfweb/DefaultQueryReport?maxDefaultQueryRows=20000&fromDueDate=&toDueDate=&operations_m=none&fromBirthStamp=&toBirthStamp=&fromShippedDate=&toShippedDate=&fromWoid=&toWoid=&fromSerialNo=&toSerialNo=&coaStatus=All&salesOrderPattern=&bpoPattern=&revisionNo=&plannedOrderPattern='.$PLO.'&legacyOrderPattern=&masterProductPattern=&skuPattern=&materialNoPattern=&shipRef=&queryType=default&sortBy=Master+Product&consolidated=wo&logic=and');
 $preg="/WorkObject\?object=([B-C|0]\w\w\w\w\w\w)\"/U";
 preg_match_all($preg,$html,$result1);
-//var_dump($result1);
 $html1=file_get_contents('http://shopfloor.asiapac.hp.com/sfweb/QuickSearch?object='.$result1[1][0].'&search=Overview');
 
 if(strstr($html1,'BF20_TSG_CUSQUEUE'))
@@ -58,7 +57,7 @@ $WO=$newwo[$maxid];
 //echo $WO=$result2[1][$maxid];
 $query=
 "
-insert into calculateforqueryplo(PLO,IFFE2,LASTBOXID,PENDING) values('$PLO','$IFFE2','$WO','1')
+insert into calculateforqueryplo2(PLO,IFFE2,LASTBOXID,PENDING) values('$PLO','$IFFE2','$WO','1')
 ";
 mysql_query($query,$db);
 }
@@ -78,7 +77,7 @@ style="width:60%;margin-left:280px;font-family: sans-serif">
 
 $db=mysql_connect('localhost','root','') or die('unable to connect.check your connection prameters.');
 mysql_select_db('calculate',$db) or die(mysql_error($db));
-$query2='select * from calculateforqueryplo where PLO<>""';
+$query2='select * from calculateforqueryplo2 where PLO<>""';
 $result=mysql_query($query2,$db);
 while($row1=mysql_fetch_assoc($result))
 {

@@ -39,13 +39,13 @@ else
 			<INPUT class="ipt" id="COMPN" name="COMPN" type="text/css" placeholder="Composite label PN#" value="">   
 			</P>
 			<P style="padding: 0px 0px 10px;position: relative;">      
-			<INPUT class="ipt" id="SCREWPN" name="SCREWPN" type="text/css" placeholder="Screw PN#" value="">   
+			<INPUT class="ipt" id="SCREWPN" name="SCREWPN" type="text/css" placeholder="Screw PN#, use Screw1|Screw2 for 2 screws" value="">   
 			</P>
 			<P style="padding: 0px 0px 10px;position: relative;">      
 			<INPUT class="ipt" id="CARRIERPN" name="CARRIERPN" type="text/css" placeholder="Carrier PN#" value="">   
 			</P>
 			<P style="padding: 0px 0px 10px;position: relative;">      
-			<INPUT class="ipt" id="HOLDERPN" name="HOLDERPN" type="text/css" placeholder="holder PN#" value="">   
+			<INPUT class="ipt" id="HOLDERPN" name="HOLDERPN" type="text/css" placeholder="Smart Converter PN#" value="">   
 			</P>
 							
 			<DIV style="height: 50px; line-height: 50px; margin-top: 10px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;">

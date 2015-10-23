@@ -1,0 +1,106 @@
+﻿modify in 2015/10/23
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   someother/TSG-H3C-ISSWorkObjectTraveler.pnj
+#	new file:   someother/cheat.html
+#	deleted:    vb/Zcooltool_V1.03.xlsm
+#	modified:   vb/setup_tool.V1.02.xlsm
+#	modified:   wamp/www/copy.bat
+#	new file:   wamp/www/copy1.bat
+#	new file:   wamp/www/pick list1509.xlsx
+#	new file:   wamp/www/pick list1510.xlsx
+#	modified:   wamp/www/queryplo.php
+#	modified:   wamp/www/test1.php
+#	modified:   wamp/www/thinkaaron/HOMEPAGE/Pages/mainframe.html
+#	new file:   wamp/www/thinkaaron/HOMEPAGE/img/hplogo1.png
+#	modified:   wamp/www/thinkaaron/Optionkitting/Home/Controller/IndexController.class.php
+#	modified:   wamp/www/thinkaaron/Optionkitting/Home/View/main.html
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_08_27.log
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_09_15.log
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_09_22.log
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_09_25.log
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_09_28.log
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_10_09.log
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_10_13.log
+#	new file:   wamp/www/thinkaaron/Optionkitting/Runtime/Logs/Home/15_10_14.log
+#	modified:   wamp/www/thinkaaron/buyerteam/Home/Controller/Prekit1Controller.class.php
+#	modified:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/Prekit2.html
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/641552-004.JPG
+#	modified:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/651687-001.jpg
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/691842-004.JPG
+#	modified:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/693569-003.jpg
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/695503-001.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/695503-003.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/695507-002.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/695507-003.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/748385-003.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/758413-001.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/765251-001.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/765251-002.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/765252-001.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/765252-002.JPG
+#	new file:   wamp/www/thinkaaron/buyerteam/Home/View/Prekit1/pics/791394-002.JPG
+#	modified:   wamp/www/thinkaaron/buyerteam/Home/insertprekitinfo.php
+#	modified:   wamp/www/thinkaaron/buyerteam/Home/insertprekitinfo1.php
+#	modified:   wamp/www/thinkaaron/buyerteam/Runtime/Cache/Home/b02b26698ed50d70e5089f98d63e0847.php
+#	modified:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_08_27.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_08_28.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_08_29.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_08_30.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_08_31.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_01.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_02.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_03.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_04.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_06.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_07.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_08.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_09.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_10.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_11.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_12.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_13.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_14.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_15.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_16.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_17.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_18.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_19.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_20.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_21.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_22.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_23.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_24.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_25.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_26.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_27.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_28.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_29.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_09_30.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_01.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_04.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_06.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_07.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_08.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_09.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_10.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_11.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_12.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_13.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_14.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_15.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_16.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_17.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_18.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_19.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_20.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_21.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_22.log
+#	new file:   wamp/www/thinkaaron/buyerteam/Runtime/Logs/Home/15_10_23.log
+#	modified:   wamp/www/updatepicklittomysql.php
+#
+

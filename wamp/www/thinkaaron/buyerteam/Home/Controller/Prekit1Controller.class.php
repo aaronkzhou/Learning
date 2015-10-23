@@ -60,10 +60,26 @@ class Prekit1Controller extends Controller
 		}
 		if (false !== $Prekit1->create())
 		{
+		$find=M("Prekit1");
+		$condition['ZMODPN'] = $data['ZMODPN'];
+		$list=$find->where($condition)->find();
+		if ($list['ZMODPN']=='')
+		{
 		$Prekit1->add($data);
 		$output="insert successfully";
 		$this->assign('output',$output);
 		$this->display();
+		}
+		else
+		{
+		$ZMODPN1=$data['ZMODPN'];
+		ECHO $ZMODPN1;
+		$Prekit1->where("ZMODPN='$ZMODPN1'")->save($data);
+		VAR_DUMP($data);
+		$output="update successfully";
+		$this->assign('output',$output);
+		$this->display();
+		}
 		}
 		else
 		{
@@ -124,7 +140,7 @@ class Prekit1Controller extends Controller
 		$output1=$Prekit1->where("ZMODPN='$ZMODPN1'")->select();
 		$this->assign('output1',$output1);
 		//VAR_DUMP($output1);
-		}
+		 }
 		$this->display();
 		//echo $keypn;
     }
@@ -132,7 +148,9 @@ class Prekit1Controller extends Controller
 	{
 		$Prekit3=D('Prekit3');
 		$data['KEYPN']=I('post.KEYPN');
+		$data['KEYPN']=trim($data['KEYPN']);
 		$data['ZMODPN']=I('post.ZMODPN');
+		$data['ZMODPN']=trim($data['ZMODPN']);
 		$keypn=$data['KEYPN'];
 		if($data['KEYPN']=='')
 		{

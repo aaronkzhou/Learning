@@ -134,22 +134,40 @@ class IndexController extends Controller
 		{
 		
 		$row=explode("\n",$all);
+		//var_dump($row);
 		$count=count($row);
+		echo $count;
+		for ($i=0;$i<$count;$i++)
+		{
+		//echo $row[$i];
+		//$array = explode(",", $row[$i]);
+		//var_dump($array);
 		//echo $count;
 		
 		for ($i=0;$i<$count;$i++)
 		{
 		
 		$row[$i]=trim($row[$i]);
-		$query="delete from CPMOData1.dbo.Option_View where SKU='$row[$i]'";
+		
+		$array = explode(",", $row[$i]);
+		//var_dump($array);
+		$array[0]=trim($array[0]);
+		$array[1]=trim($array[1]);
+		$array[2]=trim($array[2]);
+		$array[3]=trim($array[3]);
+		$array[4]=trim($array[4]);
+		$query="insert into CPMOData1.dbo.Prekit1(ZMODPN,RAWPN,COMPN,SCREWPN,CARRIERPN,HOLDERPN) VALUES('$array[0]','$array[1]','$array[2]','$array[3]','$array[4]','')";
 		$query = iconv("utf-8", "GB2312", $query);
 		echo $query;
 		//echo "delete successfully";
 		echo "<br>";
+		mssql_query($query);
 		
 		}
 		}
+		
 	
+		}
 	}
 	public function test()
 	{

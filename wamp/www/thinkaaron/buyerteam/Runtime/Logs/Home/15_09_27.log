@@ -1,0 +1,1026 @@
+[ 2015-09-27T01:26:38+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.006876s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000105911' )) AS thinkphp) AS T1  [ RunTime:0.016824s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-09-27T01:26:41+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000200s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000078229' )) AS thinkphp) AS T1  [ RunTime:0.000917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2015-09-27T01:26:44+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000236s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113811' )) AS thinkphp) AS T1  [ RunTime:0.001343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-09-27T01:26:50+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000229s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000110294' )) AS thinkphp) AS T1  [ RunTime:0.001198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-09-27T01:26:58+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000272s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000111085' )) AS thinkphp) AS T1  [ RunTime:0.001590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-09-27T01:27:07+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000200s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000100547' )) AS thinkphp) AS T1  [ RunTime:0.000925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2015-09-27T01:27:14+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000243s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000100542' )) AS thinkphp) AS T1  [ RunTime:0.001467s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2015-09-27T01:27:41+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000196s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000078228' )) AS thinkphp) AS T1  [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2015-09-27T01:28:08+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000260s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000078227' )) AS thinkphp) AS T1  [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-09-27T01:28:38+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000291s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113845' )) AS thinkphp) AS T1  [ RunTime:0.001528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-09-27T01:29:06+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000262s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113378' )) AS thinkphp) AS T1  [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-09-27T01:29:23+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000197s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000092450' )) AS thinkphp) AS T1  [ RunTime:0.000924s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2015-09-27T01:29:40+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000266s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000092449' )) AS thinkphp) AS T1  [ RunTime:0.001415s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2015-09-27T01:30:02+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000285s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000099236' )) AS thinkphp) AS T1  [ RunTime:0.001520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001120s ]
+
+[ 2015-09-27T01:30:21+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000669s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000229s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000099234' )) AS thinkphp) AS T1  [ RunTime:0.001102s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2015-09-27T01:30:49+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000230s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000112865' )) AS thinkphp) AS T1  [ RunTime:0.001118s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2015-09-27T01:34:07+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000294s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000100548' )) AS thinkphp) AS T1  [ RunTime:0.001529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2015-09-27T01:34:29+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000239s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000092452' )) AS thinkphp) AS T1  [ RunTime:0.001125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001138s ]
+
+[ 2015-09-27T01:35:34+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000235s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000078226' )) AS thinkphp) AS T1  [ RunTime:0.001222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-09-27T01:36:35+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000266s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113844' )) AS thinkphp) AS T1  [ RunTime:0.001602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2015-09-27T01:37:31+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000289s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113945' )) AS thinkphp) AS T1  [ RunTime:0.001526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2015-09-27T01:38:30+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000259s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113379' )) AS thinkphp) AS T1  [ RunTime:0.001594s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-09-27T01:39:14+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000306s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000092453' )) AS thinkphp) AS T1  [ RunTime:0.001557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2015-09-27T01:39:32+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000264s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000111090' )) AS thinkphp) AS T1  [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-09-27T01:39:44+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000198s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000100545' )) AS thinkphp) AS T1  [ RunTime:0.000927s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-09-27T01:39:54+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000267s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113666' )) AS thinkphp) AS T1  [ RunTime:0.001562s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-09-27T01:40:19+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000197s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000088086' )) AS thinkphp) AS T1  [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2015-09-27T01:41:34+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000202s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113377' )) AS thinkphp) AS T1  [ RunTime:0.000943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2015-09-27T01:41:48+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000263s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000078225' )) AS thinkphp) AS T1  [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-09-27T01:41:57+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000202s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113946' )) AS thinkphp) AS T1  [ RunTime:0.000945s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-09-27T01:42:06+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000267s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000092451' )) AS thinkphp) AS T1  [ RunTime:0.001603s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2015-09-27T01:44:52+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000212s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000105907' )) AS thinkphp) AS T1  [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-09-27T01:44:57+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000264s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000110296' )) AS thinkphp) AS T1  [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2015-09-27T01:45:01+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000190s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000110295' )) AS thinkphp) AS T1  [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-09-27T01:45:06+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000241s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000110293' )) AS thinkphp) AS T1  [ RunTime:0.001439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2015-09-27T01:45:12+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000208s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000100541' )) AS thinkphp) AS T1  [ RunTime:0.000942s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-09-27T01:45:19+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000232s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000088248' )) AS thinkphp) AS T1  [ RunTime:0.001374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-09-27T01:45:30+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000203s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113810' )) AS thinkphp) AS T1  [ RunTime:0.000939s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-09-27T01:45:39+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000259s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113944' )) AS thinkphp) AS T1  [ RunTime:0.001580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-09-27T01:45:45+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000191s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000088249' )) AS thinkphp) AS T1  [ RunTime:0.000902s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2015-09-27T01:45:48+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000233s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000111083' )) AS thinkphp) AS T1  [ RunTime:0.001366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-09-27T01:45:54+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000212s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000087684' )) AS thinkphp) AS T1  [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-09-27T01:56:01+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000399s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000111400' )) AS thinkphp) AS T1  [ RunTime:0.001522s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-09-27T01:56:14+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000234s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000110299' )) AS thinkphp) AS T1  [ RunTime:0.001107s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000920s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-09-27T01:56:19+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000277s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000111084' )) AS thinkphp) AS T1  [ RunTime:0.001471s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001144s ]
+
+[ 2015-09-27T01:56:27+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000237s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000111077' )) AS thinkphp) AS T1  [ RunTime:0.001109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001135s ]
+
+[ 2015-09-27T01:56:39+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000280s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000100540' )) AS thinkphp) AS T1  [ RunTime:0.001485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-09-27T01:56:53+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000213s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113663' )) AS thinkphp) AS T1  [ RunTime:0.000929s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2015-09-27T01:56:57+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000305s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000113665' )) AS thinkphp) AS T1  [ RunTime:0.001554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2015-09-27T01:57:07+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000229s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000099235' )) AS thinkphp) AS T1  [ RunTime:0.001104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2015-09-27T02:03:04+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000236s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000101241' )) AS thinkphp) AS T1  [ RunTime:0.001110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001158s ]
+
+[ 2015-09-27T02:03:07+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000273s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000108675' )) AS thinkphp) AS T1  [ RunTime:0.001481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2015-09-27T02:43:19+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000498s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000110087' )) AS thinkphp) AS T1  [ RunTime:0.019695s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2015-09-27T02:43:36+08:00 ] 16.85.88.17 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.000262s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000100550' )) AS thinkphp) AS T1  [ RunTime:0.001598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+

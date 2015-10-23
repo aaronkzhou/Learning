@@ -52,13 +52,13 @@ else
 				<P style="margin: 0px 35px 20px 45px;">
 					<SPAN style="float: left;">
 						<A style="color: #B22222;" href="http://16.187.224.112:8080/thinkaaron/buyerteam/home/insertprekitinfo2.php" target="main">
-						我是操作工  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						我是操作工  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 						</A>
 					</SPAN>
 					
 					<SPAN style="float: left;">
 						<A style="color: #00CD00;" href="http://16.187.224.112:8080/thinkaaron/buyerteam/home/insertprekitinfo1.php" target="main">
-						I'm Jason
+						I'm Engineer
 						</A>
 					</SPAN>
 					<SPAN style="float: right;">
