@@ -184,10 +184,34 @@ class Prekit1Controller extends Controller
 		$this->assign('output',$output);
 		$this->display(); */
     }
-	public function Uploadimage()
+	public function Option_GPN()
 	{
+	//$RAW1=I('post.GPNS');
+	//$RAW1=trim($RAW1);
+	ECHO $RAW1;
+	echo '<script>
+	var otar="HTTP://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&partRev=&SiteId=Corporate%5bCORP%5d&PlantName=Corporate%5bCORP%5d&BomUse=[1]&AltBom=1&src=GPG";
+	var ntar = otar.replace(/&amp;/g, "&");
+    var star = encodeURIComponent(ntar);	
+	</script>';
+	$var="<script>document.write(star);</script>";
+	//echo $var;
+	$test='https://onehp-idp.external.hp.com/idp/startSSO.ping?PartnerSpId=smemppartner&TargetResource='.$var;
+	$test1='http://shopfloor.asiapac.hp.com/sfweb/';
+	echo $test;
+	$RAW=file_get_contents($test);
+	echo $RAW;
+	//try{
+		$RAW=file_get_contents($test);
+	//}
+	//catch (Exception $e){
+		//throw new Exception( 'Something really gone wrong', 0, $e); 
+//	}
 	
+	
+
 	}
+
 
 }
 ?>

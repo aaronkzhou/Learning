@@ -1,0 +1,138 @@
+[ 2015-12-02T09:48:34+08:00 ] 16.189.155.9 /thinkaaron/indexbuyer.php/home/prekit/query
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit' [ RunTime:0.044409s ]
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit WHERE ( PLO='5000017103' )) AS thinkphp) AS T1  [ RunTime:0.043196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000911s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2015-12-02T12:01:50+08:00 ] 16.187.228.72 /thinkaaron/indexbuyer.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.register' [ RunTime:0.000292s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.register WHERE ( username='aaron'And password='aaron' )) AS thinkphp) AS T1  [ RunTime:0.003865s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001168s ]
+
+[ 2015-12-02T12:01:58+08:00 ] 16.187.228.72 /thinkaaron/indexbuyer.php/home/prekit1/prekit2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit1' [ RunTime:0.000285s ]
+NOTIC: [2] mssql_result() [<a href='function.mssql-result'>function.mssql-result</a>]: Bad row offset (0) C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 129 行.
+NOTIC: [2] mssql_result() [<a href='function.mssql-result'>function.mssql-result</a>]: Bad row offset (1) C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 130 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit1 WHERE ( ZMODPN='' )) AS thinkphp) AS T1  [ RunTime:0.000301s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000349s ]
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 62 行.
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 130 行.
+
+[ 2015-12-02T12:02:45+08:00 ] 16.187.228.72 /thinkaaron/indexbuyer.php/home/prekit1/prekit2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit1' [ RunTime:0.000269s ]
+NOTIC: [2] mssql_result() [<a href='function.mssql-result'>function.mssql-result</a>]: Bad row offset (0) C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 129 行.
+NOTIC: [2] mssql_result() [<a href='function.mssql-result'>function.mssql-result</a>]: Bad row offset (1) C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 130 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit1 WHERE ( ZMODPN='' )) AS thinkphp) AS T1  [ RunTime:0.000210s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 62 行.
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 130 行.
+
+[ 2015-12-02T12:03:49+08:00 ] 16.187.228.72 /thinkaaron/indexbuyer.php/home/prekit1/prekit2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit1' [ RunTime:0.000264s ]
+NOTIC: [2] mssql_result() [<a href='function.mssql-result'>function.mssql-result</a>]: Bad row offset (0) C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 129 行.
+NOTIC: [2] mssql_result() [<a href='function.mssql-result'>function.mssql-result</a>]: Bad row offset (1) C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 130 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit1 WHERE ( ZMODPN='' )) AS thinkphp) AS T1  [ RunTime:0.000201s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 62 行.
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 130 行.
+
+[ 2015-12-02T13:55:04+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.register' [ RunTime:0.000306s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.register WHERE ( username='aaron'And password='aaron' )) AS thinkphp) AS T1  [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001163s ]
+

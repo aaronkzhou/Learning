@@ -1,0 +1,337 @@
+[ 2015-12-04T03:48:41+08:00 ] 16.187.228.72 /thinkaaron/indexbuyer.php/home/prekit1/prekit2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001257s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.prekit1' [ RunTime:0.000587s ]
+NOTIC: [2] mssql_result() [<a href='function.mssql-result'>function.mssql-result</a>]: Bad row offset (1) C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 130 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.prekit1 WHERE ( ZMODPN='728713-B21' )) AS thinkphp) AS T1  [ RunTime:0.003359s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000357s ]
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 62 行.
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 97 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 130 行.
+NOTIC: [8] Undefined variable: output1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 174 行.
+NOTIC: [8] Undefined offset: 1 C:\wamp\www\thinkaaron\buyerteam\Runtime\Cache\Home\b02b26698ed50d70e5089f98d63e0847.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001281s ]
+
+[ 2015-12-04T18:44:11+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000721s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001258s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.register' [ RunTime:0.000296s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.register WHERE ( username='aaron'And password='aaron' )) AS thinkphp) AS T1  [ RunTime:0.006525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2015-12-04T18:48:50+08:00 ] 16.85.88.24 /thinkaaron/indexbuyer.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.register' [ RunTime:0.000330s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.register WHERE ( username='aaron'And password='aaron' )) AS thinkphp) AS T1  [ RunTime:0.000232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000906s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001105s ]
+
+[ 2015-12-04T18:50:58+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SELECT   column_name,   data_type,   column_default,   is_nullable
+        FROM    information_schema.tables AS t
+        JOIN    information_schema.columns AS c
+        ON  t.table_catalog = c.table_catalog
+        AND t.table_schema  = c.table_schema
+        AND t.table_name    = c.table_name
+        WHERE   t.table_name = 'dbo.register' [ RunTime:0.000305s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, boolean given C:\wamp\www\thinkaaron\ThinkPHP\Library\Think\Model.class.php 第 918 行.
+SQL: SELECT T1.* FROM (SELECT thinkphp.*, ROW_NUMBER() OVER ( ORDER BY rand()) AS ROW_NUMBER FROM (SELECT  * FROM dbo.register WHERE ( username='aaron'And password='aaron' )) AS thinkphp) AS T1  [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2015-12-04T18:53:13+08:00 ] 16.85.88.24 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2015-12-04T19:04:21+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2015-12-04T19:13:25+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+
+[ 2015-12-04T19:13:46+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001076s ]
+
+[ 2015-12-04T19:14:04+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-12-04T19:14:13+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [8] Undefined variable: RAW C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2015-12-04T19:14:36+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+
+[ 2015-12-04T19:32:55+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&amp;partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2015-12-04T19:33:09+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001251s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&amp;partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 191 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2015-12-04T19:34:01+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&amp;partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001075s ]
+
+[ 2015-12-04T19:34:16+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&amp;partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001032s ]
+
+[ 2015-12-04T19:34:36+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000962s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2015-12-04T19:35:27+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&amp;partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2015-12-04T19:38:45+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&amp;partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2015-12-04T19:45:10+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+NOTIC: [2] file_get_contents(http://pdmweb.usa.hp.com/bomlookup_HPE/MultiLevelBOMDetail.aspx?PartNumber=785226-002&amp;partRev=&amp;SiteId=Corporate%5bCORP%5d&amp;PlantName=Corporate%5bCORP%5d&amp;BomUse=[1]&amp;AltBom=1&amp;src=GPG) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: Unable to find the socket transport &quot;ssl&quot; - did you forget to enable it when you configured PHP? C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2015-12-04T19:49:18+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+
+[ 2015-12-04T19:49:18+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001166s ]
+
+[ 2015-12-04T19:49:18+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+
+[ 2015-12-04T19:49:40+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+NOTIC: [2] file_get_contents(http://www.baidu.com) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001389s ]
+
+[ 2015-12-04T19:49:46+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001223s ]
+NOTIC: [8] Undefined variable: RAW C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 193 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2015-12-04T19:50:16+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001133s ]
+NOTIC: [2] file_get_contents(http://www.baidu.com) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2015-12-04T19:50:43+08:00 ] 15.109.94.139 /thinkaaron/indexbuyer.php/home/prekit1/Option_GPN
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001134s ]
+NOTIC: [2] file_get_contents(http://www.baidu.com) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\wamp\www\thinkaaron\buyerteam\Home\Controller\Prekit1Controller.class.php 第 192 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
