@@ -1,8 +1,0 @@
-Logfile name is: 150225-010253-BackupLog.txt
-BACKUP LOG FILE STARTED AT: 2015-2-25 1:02:53
-================================================
-Copying FROM: C:\Documents and Settings\Administrator\桌面\定时备份软件
-Copying TO: E:\000
-
-TIME OF LOG ENTRY: 2015-2-25 1:02:54
-Copy completed successfully.
